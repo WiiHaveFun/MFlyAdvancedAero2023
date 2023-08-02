@@ -1,0 +1,104 @@
+Transition_Test
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+1.0    0.5    2.0  ! Sref Cref Bref
+0.1092 0.0    0.0     ! Xref   Yref   Zref
+
+#
+# ==== Fuselage ====
+#
+SURFACE
+Fuselage
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Wing Root ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+# ---- Transition Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.1    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+
+#
+# ==== Transition ====
+#
+SURFACE
+Transition
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Transition Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.1    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+# ---- Transition End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.2    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 20 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Transition End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.2    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+# ---- Wing Tip ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      1.0    0.0    0.5      0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat

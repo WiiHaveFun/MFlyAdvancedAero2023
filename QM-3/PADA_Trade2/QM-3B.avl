@@ -1,0 +1,124 @@
+QM-3B
+# Rectangular fuselage, swept and tapered transition and wing region.
+# Michael Chen, July 29, 2023
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+0.2865 0.3206 0.9144  ! Sref Cref Bref
+0.1092 0.0    0.0     ! Xref   Yref   Zref
+
+#
+# ==== Fuselage ====
+#
+SURFACE
+Fuselage
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Center ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0    0.0    0.3810   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/Fuselage/NACA23118.dat
+
+CLAF
+1.2775
+
+# ---- Fuselage End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0508 0.0    0.3810   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/Fuselage/NACA23118.dat
+
+CLAF
+1.2775
+
+
+#
+# ==== Transition ====
+#
+SURFACE
+Transition
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Transition Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0508 0.0    0.3810   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/Fuselage/NACA23118.dat
+
+CLAF
+1.2775
+
+# ---- Transition End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0233   0.1016 0.0    0.3620   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/hs520.dat
+
+CLAF
+0.9230
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 20 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Wing Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0233   0.1016 0.0    0.3620   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/hs520.dat
+
+CLAF
+0.9230
+
+# ---- Wing Tip ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.1860   0.4572 0.0    0.2286   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/hs520.dat
+
+CLAF
+0.9230

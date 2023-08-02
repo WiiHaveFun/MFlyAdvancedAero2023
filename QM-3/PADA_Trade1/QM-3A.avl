@@ -1,0 +1,37 @@
+QM-3A
+# Chevron shaped wing
+# Michael Chen, July 22, 2023
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+0.1672 0.1867 0.9144  ! Sref Cref Bref
+0.1092 0.0    0.0     ! Xref   Yref   Zref
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 20 1.0
+
+YDUPLICATE
+0.0
+
+# ---- Wing Root ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0    0.0    0.2286   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/hs520.dat
+
+# ---- Wing Tip ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.1893   0.4572 0.0    0.1372   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/PADA/hs520.dat
