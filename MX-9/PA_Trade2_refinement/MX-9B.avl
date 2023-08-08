@@ -1,0 +1,162 @@
+MX-9B1
+# Rectangular fuselage, trapezoidal transition region, tapered wing, rectangular h-tail
+# Michael Chen, July 29, 2023
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+1.4976 0.6048 3.0328  ! Sref Cref Bref
+0.7456 0.0    0.0     ! Xref   Yref   Zref
+
+#
+# ==== Fuselage ====
+#
+SURFACE
+Fuselage
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+20 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Center ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0    0.0    1.3716   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+CLAF
+0.9756
+
+# ---- Fuselage End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0532 0.0    1.3716   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+CLAF
+0.9756
+
+
+#
+# ==== Transition ====
+#
+SURFACE
+Transition
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+15 1.0 5 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Transition Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0532 0.0    1.3716   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Fuselage/naca23012.dat
+
+CLAF
+0.9756
+
+# ---- Transition End ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.5944    0.1294 0.0    0.6096   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+CLAF
+0.8808
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 20 1.0
+
+COMPONENT
+1
+
+YDUPLICATE
+0.0
+
+# ---- Wing Start ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.5944   0.1294 0.0    0.6096   0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+CLAF
+0.8808
+
+# ---- Wing Tip ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.5944   1.5164 0.0    0.256    0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+CLAF
+0.8808
+
+
+#
+# ==== H-Tail ====
+#
+SURFACE
+H-Tail
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 20 1.0
+
+YDUPLICATE
+0.0
+
+# ---- Tail Root ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+2.134    0.0    0.0254 0.2373   0.0
+
+NACA
+0012
+
+CONTROL
+# surface gain   xhinge hvec     SgnDup
+Elevator  -1.0   0.5    0 1 0    1
+
+# ---- Tail Tip ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+2.134    0.5932 0.0254 0.2373   0.0
+
+NACA
+0012
+
+CONTROL
+# surface gain   xhinge hvec     SgnDup
+Elevator  -1.0   0.5    0 1 0    1
