@@ -76,7 +76,7 @@ CLAF
 # ---- Transition End ----
 SECTION
 # Xle    Yle    Zle    chord    angle
-0.5944    0.1294 0.0    0.6096   0.0
+0.5944    0.1294 -0.033    0.6096   0.0
 
 AFILE
 /Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
@@ -104,7 +104,7 @@ YDUPLICATE
 # ---- Wing Start ----
 SECTION
 # Xle    Yle    Zle    chord    angle
-0.5944   0.1294 0.0    0.6096   0.0
+0.5944   0.1294 -0.033    0.6096   0.0
 
 AFILE
 /Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
@@ -115,7 +115,7 @@ CLAF
 # ---- Wing Tip ----
 SECTION
 # Xle    Yle    Zle    chord    angle
-0.5944   1.5164 0.0    0.256    0.0
+0.5944   1.5164 -0.033    0.256    0.0
 
 AFILE
 /Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
