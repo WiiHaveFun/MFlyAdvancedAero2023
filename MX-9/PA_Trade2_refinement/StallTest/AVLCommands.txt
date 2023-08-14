@@ -1,0 +1,11 @@
+load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_Trade2_refinement/MX-9B1.avl
+oper
+d1 pm 0
+a a 16.3281
+x
+fs
+16.3281.fs
+
+
+
+Quit

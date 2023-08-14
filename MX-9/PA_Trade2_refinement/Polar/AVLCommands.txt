@@ -1,0 +1,85 @@
+load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_Trade2_refinement/MX-9B1.avl
+oper
+d1 pm 0
+a a -20.00000000
+x
+w
+data.ft
+a a -17.89473684
+x
+w
+
+a a -15.78947368
+x
+w
+
+a a -13.68421053
+x
+w
+
+a a -11.57894737
+x
+w
+
+a a -9.47368421
+x
+w
+
+a a -7.36842105
+x
+w
+
+a a -5.26315789
+x
+w
+
+a a -3.15789474
+x
+w
+
+a a -1.05263158
+x
+w
+
+a a 1.05263158
+x
+w
+
+a a 3.15789474
+x
+w
+
+a a 5.26315789
+x
+w
+
+a a 7.36842105
+x
+w
+
+a a 9.47368421
+x
+w
+
+a a 11.57894737
+x
+w
+
+a a 13.68421053
+x
+w
+
+a a 15.78947368
+x
+w
+
+a a 17.89473684
+x
+w
+
+a a 20.00000000
+x
+w
+
+
+Quit
