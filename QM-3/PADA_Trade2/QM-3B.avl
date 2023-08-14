@@ -23,6 +23,10 @@ COMPONENT
 YDUPLICATE
 0.0
 
+CDCL
+#CL1 CD1          CL2 CD2           CL3 CD3
+-1.00594 0.04412  -0.18401 0.01207  1.25882 0.03787
+
 # ---- Center ----
 SECTION
 # Xle    Yle    Zle    chord    angle
@@ -44,7 +48,6 @@ AFILE
 
 CLAF
 1.2775
-
 
 #
 # ==== Transition ====
@@ -73,6 +76,10 @@ AFILE
 CLAF
 1.2775
 
+CDCL
+#CL1 CD1          CL2 CD2           CL3 CD3
+-1.00594 0.04412  -0.18401 0.01207  1.25882 0.03787
+
 # ---- Transition End ----
 SECTION
 # Xle    Yle    Zle    chord    angle
@@ -83,6 +90,10 @@ AFILE
 
 CLAF
 0.9230
+
+CDCL
+#CL1 CD1          CL2 CD2           CL3 CD3
+-0.33700 0.02631  0.02929 0.00911   1.19288 0.04278
 
 
 #
@@ -100,6 +111,10 @@ COMPONENT
 
 YDUPLICATE
 0.0
+
+CDCL
+#CL1 CD1          CL2 CD2           CL3 CD3
+-0.33700 0.02631  0.02929 0.00911   1.19288 0.04278
 
 # ---- Wing Start ----
 SECTION
