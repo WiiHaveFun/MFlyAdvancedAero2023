@@ -13,112 +13,19 @@
 
  Run case:  -unnamed-                              
 
-  Alpha = -10.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -5.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.02687     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.05913
-  CZtot =   0.51319     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.00259     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =   0.02927
+  CZtot =   0.23613     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =  -0.50073
-  CDtot =   0.11558
-  CDvis =   0.08629     CDind = 0.0292886
-  CLff  =  -0.50589     CDff  = 0.0279512    | Trefftz
-  CYff  =   0.00000         e =    0.9987    | Plane  
-
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: QM-3B                                                       
-     # Surfaces =   6
-     # Strips   =  60
-     # Vortices = 600
-
-  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
-  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  -8.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =   0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.00747     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.04929
-  CZtot =   0.42349     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =  -0.41783
-  CDtot =   0.06941
-  CDvis =   0.04903     CDind = 0.0203789
-  CLff  =  -0.42085     CDff  = 0.0193450    | Trefftz
-  CYff  =   0.00000         e =    0.9986    | Plane  
-
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: QM-3B                                                       
-     # Surfaces =   6
-     # Strips   =  60
-     # Vortices = 600
-
-  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
-  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  -6.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =   0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =   0.00168     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.03989
-  CZtot =   0.33611     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =  -0.33392
-  CDtot =   0.03838
-  CDvis =   0.02536     CDind = 0.0130201
-  CLff  =  -0.33548     CDff  = 0.0122947    | Trefftz
-  CYff  =   0.00000         e =    0.9984    | Plane  
-
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: QM-3B                                                       
-     # Surfaces =   6
-     # Strips   =  60
-     # Vortices = 600
-
-  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
-  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  -5.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =   0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.00179     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.03079
-  CZtot =   0.25041     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =  -0.24919
-  CDtot =   0.02476
-  CDvis =   0.01749     CDind = 0.0072698
-  CLff  =  -0.24986     CDff  = 0.0068218    | Trefftz
-  CYff  =   0.00000         e =    0.9982    | Plane  
+  CLtot =  -0.23500
+  CDtot =   0.02316
+  CDvis =   0.01669     CDind = 0.0064712
+  CLff  =  -0.23557     CDff  = 0.0060642    | Trefftz
+  CYff  =   0.00000         e =    0.9981    | Plane  
 
 
  ---------------------------------------------------------------
@@ -168,19 +75,19 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  -2.10526     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -2.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.00873     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =   0.00000     Cmtot =   0.01257
-  CZtot =   0.07846     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.00838     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =   0.01409
+  CZtot =   0.09282     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =  -0.07808
-  CDtot =   0.01161
-  CDvis =   0.01084     CDind = 0.0007637
-  CLff  =  -0.07811     CDff  = 0.0006695    | Trefftz
-  CYff  =   0.00000         e =    0.9941    | Plane  
+  CLtot =  -0.09240
+  CDtot =   0.01221
+  CDvis =   0.01116     CDind = 0.0010472
+  CLff  =  -0.09244     CDff  = 0.0009365    | Trefftz
+  CYff  =   0.00000         e =    0.9953    | Plane  
 
 
  ---------------------------------------------------------------
@@ -199,50 +106,50 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  -0.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -1.05263     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00973     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =   0.00649
+  CZtot =   0.02097     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =  -0.02078
+  CDtot =   0.01011
+  CDvis =   0.01001     CDind = 0.0001047
+  CLff  =  -0.02079     CDff  = 0.0000496    | Trefftz
+  CYff  =   0.00000         e =    0.9497    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3B                                                       
+     # Surfaces =   6
+     # Strips   =  60
+     # Vortices = 600
+
+  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   0.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =  -0.00997     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =   0.00000     Cmtot =   0.00344
-  CZtot =  -0.00779     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00113
+  CZtot =  -0.05093     Cntot =  -0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.00788
-  CDtot =   0.00990
-  CDvis =   0.00984     CDind = 0.0000606
-  CLff  =   0.00788     CDff  = 0.0000088    | Trefftz
-  CYff  =   0.00000         e =    0.7695    | Plane  
-
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: QM-3B                                                       
-     # Surfaces =   6
-     # Strips   =  60
-     # Vortices = 600
-
-  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
-  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =   1.05263     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =   0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.00934     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00569
-  CZtot =  -0.09404     Cntot =   0.00000     Cn'tot =   0.00000
-
-  CLtot =   0.09385
-  CDtot =   0.01106
-  CDvis =   0.00999     CDind = 0.0010711
-  CLff  =   0.09387     CDff  = 0.0009628    | Trefftz
-  CYff  =   0.00000         e =    0.9982    | Plane  
+  CLtot =   0.05088
+  CDtot =   0.01021
+  CDvis =   0.00985     CDind = 0.0003517
+  CLff  =   0.05088     CDff  = 0.0002840    | Trefftz
+  CYff  =   0.00000         e =    0.9942    | Plane  
 
 
  ---------------------------------------------------------------
@@ -261,18 +168,49 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   2.63158     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   1.57895     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.00604     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.01481
-  CZtot =  -0.18008     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.00854     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.00873
+  CZtot =  -0.12275     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.17961
-  CDtot =   0.01430
-  CDvis =   0.01051     CDind = 0.0037892
-  CLff  =   0.17979     CDff  = 0.0035285    | Trefftz
+  CLtot =   0.12247
+  CDtot =   0.01192
+  CDvis =   0.01013     CDind = 0.0017881
+  CLff  =   0.12252     CDff  = 0.0016392    | Trefftz
+  CYff  =   0.00000         e =    0.9988    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3B                                                       
+     # Surfaces =   6
+     # Strips   =  60
+     # Vortices = 600
+
+  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.89474     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00523     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.01633
+  CZtot =  -0.19439     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.19387
+  CDtot =   0.01504
+  CDvis =   0.01063     CDind = 0.0044071
+  CLff  =   0.19410     CDff  = 0.0041124    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -323,18 +261,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   5.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   5.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.00861     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.03290
-  CZtot =  -0.35062     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.00698     Cltot =  -0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.03141
+  CZtot =  -0.33652     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.34970
-  CDtot =   0.02680
-  CDvis =   0.01254     CDind = 0.0142593
-  CLff  =   0.35115     CDff  = 0.0134591    | Trefftz
+  CLtot =   0.33563
+  CDtot =   0.02546
+  CDvis =   0.01232     CDind = 0.0131354
+  CLff  =   0.33690     CDff  = 0.0123892    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -354,18 +292,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   7.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   6.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.01995     Cltot =  -0.00000     Cl'tot =   0.00000
-  CYtot =   0.00000     Cmtot =  -0.04183
-  CZtot =  -0.43466     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =   0.01587     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.03887
+  CZtot =  -0.40676     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.43363
-  CDtot =   0.03596
-  CDvis =   0.01403     CDind = 0.0219351
-  CLff  =   0.43646     CDff  = 0.0207939    | Trefftz
+  CLtot =   0.40575
+  CDtot =   0.03270
+  CDvis =   0.01350     CDind = 0.0192006
+  CLff  =   0.40806     CDff  = 0.0181754    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -385,18 +323,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   8.94737     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   8.15789     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.03393     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.05065
-  CZtot =  -0.51756     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.02661     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.04625
+  CZtot =  -0.47626     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.51654
-  CDtot =   0.04698
-  CDvis =   0.01581     CDind = 0.0311664
-  CLff  =   0.52144     CDff  = 0.0296802    | Trefftz
+  CLtot =   0.47522
+  CDtot =   0.04124
+  CDvis =   0.01488     CDind = 0.0263603
+  CLff  =   0.47900     CDff  = 0.0250447    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -416,18 +354,49 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  10.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   9.47368     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.05053     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.05933
-  CZtot =  -0.59910     Cntot =   0.00000     Cn'tot =  -0.00000
+  CXtot =   0.03917     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.05356
+  CZtot =  -0.54490     Cntot =   0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.59825
-  CDtot =   0.05976
-  CDvis =   0.01788     CDind = 0.0418847
-  CLff  =   0.60603     CDff  = 0.0400910    | Trefftz
+  CLtot =   0.54392
+  CDtot =   0.05105
+  CDvis =   0.01647     CDind = 0.0345777
+  CLff  =   0.54969     CDff  = 0.0329825    | Trefftz
+  CYff  =   0.00000         e =    0.9992    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3B                                                       
+     # Surfaces =   6
+     # Strips   =  60
+     # Vortices = 600
+
+  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.05355     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.06076
+  CZtot =  -0.61254     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.61174
+  CDtot =   0.06206
+  CDvis =   0.01825     CDind = 0.0438101
+  CLff  =   0.62008     CDff  = 0.0419721    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -478,18 +447,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  13.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  13.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.09148     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =   0.00000     Cmtot =  -0.07620
-  CZtot =  -0.75718     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.08768     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.07483
+  CZtot =  -0.74430     Cntot =   0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.75733
-  CDtot =   0.09024
-  CDvis =   0.02279     CDind = 0.0674505
-  CLff  =   0.77376     CDff  = 0.0653551    | Trefftz
+  CLtot =   0.74432
+  CDtot =   0.08747
+  CDvis =   0.02235     CDind = 0.0651231
+  CLff  =   0.75986     CDff  = 0.0630289    | Trefftz
   CYff  =   0.00000         e =    0.9992    | Plane  
 
 
@@ -509,18 +478,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  15.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  14.73684     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.11574     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =   0.00000     Cmtot =  -0.08435
-  CZtot =  -0.83329     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.10738     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.08166
+  CZtot =  -0.80816     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.83436
-  CDtot =   0.10770
-  CDvis =   0.02560     CDind = 0.0821057
-  CLff  =   0.85677     CDff  = 0.0801317    | Trefftz
+  CLtot =   0.80889
+  CDtot =   0.10173
+  CDvis =   0.02464     CDind = 0.0770924
+  CLff  =   0.82917     CDff  = 0.0750515    | Trefftz
   CYff  =   0.00000         e =    0.9991    | Plane  
 
 
@@ -540,18 +509,18 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  16.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  16.05263     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.14247     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.09227
-  CZtot =  -0.90714     Cntot =   0.00000     Cn'tot =  -0.00000
+  CXtot =   0.12880     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.08834
+  CZtot =  -0.87051     Cntot =   0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.90951
-  CDtot =   0.12647
-  CDvis =   0.02861     CDind = 0.0978646
-  CLff  =   0.93913     CDff  = 0.0962797    | Trefftz
+  CLtot =   0.87218
+  CDtot =   0.11693
+  CDvis =   0.02708     CDind = 0.0898545
+  CLff  =   0.89804     CDff  = 0.0880373    | Trefftz
   CYff  =   0.00000         e =    0.9991    | Plane  
 
 
@@ -571,18 +540,49 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  18.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  17.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.17160     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =   0.00000     Cmtot =  -0.09994
-  CZtot =  -0.97852     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.15192     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.09485
+  CZtot =  -0.93122     Cntot =   0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.98261
-  CDtot =   0.14640
-  CDvis =   0.03179     CDind = 0.1146075
-  CLff  =   1.02078     CDff  = 0.1137499    | Trefftz
+  CLtot =   0.93411
+  CDtot =   0.13299
+  CDvis =   0.02965     CDind = 0.1033424
+  CLff  =   0.96643     CDff  = 0.1019587    | Trefftz
+  CYff  =   0.00000         e =    0.9991    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3B                                                       
+     # Surfaces =   6
+     # Strips   =  60
+     # Vortices = 600
+
+  Sref = 0.28650       Cref = 0.32060       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  18.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.17669     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.10119
+  CZtot =  -0.99017     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.99459
+  CDtot =   0.14983
+  CDvis =   0.03234     CDind = 0.1174848
+  CLff  =   1.03432     CDff  = 0.1167865    | Trefftz
   CYff  =   0.00000         e =    0.9991    | Plane  
 
 
