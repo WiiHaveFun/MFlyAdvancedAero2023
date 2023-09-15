@@ -1,0 +1,620 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  -5.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00320     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =   0.03722
+  CZtot =   0.30163     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =  -0.30021
+  CDtot =   0.02947
+  CDvis =   0.02327     CDind = 0.0062008
+  CLff  =  -0.30075     CDff  = 0.0058292    | Trefftz
+  CYff  =   0.00000         e =    0.9877    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  -3.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00580     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =   0.02871
+  CZtot =   0.22172     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =  -0.22083
+  CDtot =   0.02065
+  CDvis =   0.01726     CDind = 0.0033886
+  CLff  =  -0.22106     CDff  = 0.0031523    | Trefftz
+  CYff  =   0.00000         e =    0.9867    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  -2.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00769     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =   0.02019
+  CZtot =   0.14172     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =  -0.14120
+  CDtot =   0.01432
+  CDvis =   0.01289     CDind = 0.0014305
+  CLff  =  -0.14127     CDff  = 0.0012904    | Trefftz
+  CYff  =   0.00000         e =    0.9845    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  -1.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00887     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =   0.01165
+  CZtot =   0.06168     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =  -0.06142
+  CDtot =   0.01051
+  CDvis =   0.01018     CDind = 0.0003353
+  CLff  =  -0.06143     CDff  = 0.0002467    | Trefftz
+  CYff  =   0.00000         e =    0.9737    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  -0.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00936     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =   0.00312
+  CZtot =  -0.01838     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.01844
+  CDtot =   0.00924
+  CDvis =   0.00913     CDind = 0.0001081
+  CLff  =   0.01844     CDff  = 0.0000228    | Trefftz
+  CYff  =   0.00000         e =    0.9494    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   0.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00863     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.00542
+  CZtot =  -0.09842     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.09829
+  CDtot =   0.00999
+  CDvis =   0.00924     CDind = 0.0007502
+  CLff  =   0.09830     CDff  = 0.0006191    | Trefftz
+  CYff  =   0.00000         e =    0.9934    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   1.94737     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00588     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.01396
+  CZtot =  -0.17834     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.17804
+  CDtot =   0.01194
+  CDvis =   0.00968     CDind = 0.0022598
+  CLff  =   0.17812     CDff  = 0.0020347    | Trefftz
+  CYff  =   0.00000         e =    0.9925    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   3.10526     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00110     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.02247
+  CZtot =  -0.25805     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.25761
+  CDtot =   0.01508
+  CDvis =   0.01045     CDind = 0.0046311
+  CLff  =   0.25786     CDff  = 0.0042671    | Trefftz
+  CYff  =   0.00000         e =    0.9919    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   4.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.00571     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.03095
+  CZtot =  -0.33743     Cntot =   0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.33692
+  CDtot =   0.01939
+  CDvis =   0.01153     CDind = 0.0078552
+  CLff  =   0.33751     CDff  = 0.0073129    | Trefftz
+  CYff  =   0.00000         e =    0.9915    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.01455     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.03939
+  CZtot =  -0.41637     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.41588
+  CDtot =   0.02485
+  CDvis =   0.01293     CDind = 0.0119195
+  CLff  =   0.41701     CDff  = 0.0111669    | Trefftz
+  CYff  =   0.00000         e =    0.9912    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   6.57895     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.02541     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.04777
+  CZtot =  -0.49475     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.49440
+  CDtot =   0.03144
+  CDvis =   0.01463     CDind = 0.0168079
+  CLff  =   0.49634     CDff  = 0.0158229    | Trefftz
+  CYff  =   0.00000         e =    0.9910    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   7.73684     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.03828     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.05609
+  CZtot =  -0.57248     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.57242
+  CDtot =   0.03914
+  CDvis =   0.01664     CDind = 0.0225010
+  CLff  =   0.57547     CDff  = 0.0212734    | Trefftz
+  CYff  =   0.00000         e =    0.9909    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.89474     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.05315     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.06433
+  CZtot =  -0.64943     Cntot =   0.00000     Cn'tot =   0.00000
+
+  CLtot =   0.64984
+  CDtot =   0.04791
+  CDvis =   0.01893     CDind = 0.0289761
+  CLff  =   0.65437     CDff  = 0.0275093    | Trefftz
+  CYff  =   0.00000         e =    0.9908    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.05263     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.07000     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.07247
+  CZtot =  -0.72550     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.72658
+  CDtot =   0.05771
+  CDvis =   0.02150     CDind = 0.0362072
+  CLff  =   0.73300     CDff  = 0.0345206    | Trefftz
+  CYff  =   0.00000         e =    0.9907    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.21053     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.08883     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.08052
+  CZtot =  -0.80058     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.80257
+  CDtot =   0.06851
+  CDvis =   0.02435     CDind = 0.0441654
+  CLff  =   0.81133     CDff  = 0.0422956    | Trefftz
+  CYff  =   0.00000         e =    0.9906    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  12.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.10960     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.08846
+  CZtot =  -0.87456     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.87774
+  CDtot =   0.08027
+  CDvis =   0.02745     CDind = 0.0528184
+  CLff  =   0.88933     CDff  = 0.0508219    | Trefftz
+  CYff  =   0.00000         e =    0.9906    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  13.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.13231     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.09627
+  CZtot =  -0.94734     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.95201
+  CDtot =   0.09293
+  CDvis =   0.03080     CDind = 0.0621313
+  CLff  =   0.96696     CDff  = 0.0600854    | Trefftz
+  CYff  =   0.00000         e =    0.9905    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  14.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.15694     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.10395
+  CZtot =  -1.01881     Cntot =   0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.02531
+  CDtot =   0.10645
+  CDvis =   0.03438     CDind = 0.0720664
+  CLff  =   1.04420     CDff  = 0.0700710    | Trefftz
+  CYff  =   0.00000         e =    0.9905    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  15.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.18340     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.11148
+  CZtot =  -1.08887     Cntot =   0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.09758
+  CDtot =   0.12081
+  CDvis =   0.03823     CDind = 0.0825831
+  CLff  =   1.12101     CDff  = 0.0807624    | Trefftz
+  CYff  =   0.00000         e =    0.9904    | Plane  
+
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3A                                                       
+     # Surfaces =   2
+     # Strips   =  40
+     # Vortices = 400
+
+  Sref = 0.16720       Cref = 0.18670       Bref = 0.91440    
+  Xref = 0.10920       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  17.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.20832     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.11903
+  CZtot =  -1.15845     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.16874
+  CDtot =   0.13948
+  CDvis =   0.04584     CDind = 0.0936386
+  CLff  =   1.19737     CDff  = 0.0921421    | Trefftz
+  CYff  =   0.00000         e =    0.9904    | Plane  
+
+
+ ---------------------------------------------------------------
