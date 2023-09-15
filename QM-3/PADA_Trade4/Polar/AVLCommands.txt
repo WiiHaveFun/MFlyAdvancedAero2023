@@ -1,0 +1,84 @@
+load /Users/michaelchen/Documents/M-Fly/2023/QM-3/PADA_Trade4/QM-3D.avl
+oper
+a a -5.00000000
+x
+w
+data.ft
+a a -3.84210526
+x
+w
+
+a a -2.68421053
+x
+w
+
+a a -1.52631579
+x
+w
+
+a a -0.36842105
+x
+w
+
+a a 0.78947368
+x
+w
+
+a a 1.94736842
+x
+w
+
+a a 3.10526316
+x
+w
+
+a a 4.26315789
+x
+w
+
+a a 5.42105263
+x
+w
+
+a a 6.57894737
+x
+w
+
+a a 7.73684211
+x
+w
+
+a a 8.89473684
+x
+w
+
+a a 10.05263158
+x
+w
+
+a a 11.21052632
+x
+w
+
+a a 12.36842105
+x
+w
+
+a a 13.52631579
+x
+w
+
+a a 14.68421053
+x
+w
+
+a a 15.84210526
+x
+w
+
+a a 17.00000000
+x
+w
+
+
+Quit
