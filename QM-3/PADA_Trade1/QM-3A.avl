@@ -20,6 +20,10 @@ Wing
 YDUPLICATE
 0.0
 
+CDCL
+#CL1 CD1          CL2 CD2           CL3 CD3
+-0.33700 0.02631  0.02929 0.00911   1.19288 0.04278
+
 # ---- Wing Root ----
 SECTION
 # Xle    Yle    Zle    chord    angle
