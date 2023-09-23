@@ -1,10 +1,10 @@
 load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_Trade2_refinement/MX-9B1.avl
 oper
 d1 pm 0
-a a 80.0000
+a a 13.9844
 x
 fs
-80.fs
+13.9844.fs
 
 
 

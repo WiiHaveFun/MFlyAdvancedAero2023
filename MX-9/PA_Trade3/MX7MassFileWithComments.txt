@@ -1,0 +1,78 @@
+! IMPERIAL UNITS WATCH OUT, MAYBE CHANGE AIR DENSITY (1.14)
+
+Lunit = 1 ft
+Munit = 0.0311 slug
+Tunit = 1 s
+g     = 32.17
+rho   = 2.190E-3
+
+# =================================== AIRCRAFT MASS & INERTIA PROPERTIES ==========================
+# Mass      Xcg       Ycg       Zcg       Ixx Iyy Izz Ixy Ixz Iyz   Component
+# =================================================================================================
+
+# -------------------------------------------Fuselage----------------------------------------------
++ 0.000     0.283     0.000     0.000     0   0   0   0   0   0   ! Fuselage Offset from noseft			Get rid of this
+
+! ADD MOTOR (Hacker A60 5S = 595 g) AND PROP (24 x 13 Falcon = 85 g) TO NOSE
+
+# Structure:
+  2.793	    2.092     0.000    -0.016     0   0   0   0   0   0   ! Outer Skin DONE				Typically get SA of MX-7, compare to MX-9, do it with top down area
+  0.103     0.750     0.000    -0.300     0   0   0   0   0   0   ! Forward cargo bulkhead DONE			Add mass to fuselage
+  0.103     2.417     0.000    -0.300     0   0   0   0   0   0   ! Rear cargo bulkhead DONE			Add mass to fuselage
+
+
+# Electronics:													Keep this section identical
+
+  0.119     0.333     0.250    -0.333     0   0   0   0   0   0   ! GPS DONE				
+  0.333     0.333     0.250    -0.333     0   0   0   0   0   0   ! Arduino MEGADONE
+  0.400     0.333    -0.250    -0.333     0   0   0   0   0   0   ! Systems Battery DONE
+  1.500     0.333     0.000    -0.250     0   0   0   0   0   0   ! Main Battery Done
+
+# Landing Gear:
+  0.813     2.333     0.000    -0.333     0   0   0   0   0   0   ! Main Gear DONE				Identical
+  0.930     0.708     0.000    -0.333     0   0   0   0   0   0   ! Nose Gear DONE
+
+# Payloads:													
+  15.00     1.583     0.000    -0.250     0   0   0   0   0   0   ! Water DONE 					Identical
+  #1.000     3.854     0.000    -0.500     0   0   0   0   0   0   ! PADA DONE					Under fuselage (identical) OR under a wing
+
+# Propulsion:													Identical
+  0.278     0.399    -0.083     0.000     0   0   0   0   0   0   ! ESC DONE
+
+# --------------------------------------------Wings------------------------------------------------
++ 0.000     1.830     0.000     0.000     0   0   0   0   0   0   ! LE Offset					Identical
+
+# Right Wing
+  2.250     0.750     2.667     0.146     0   0   0   0   0   0   ! Right wing					Do Sref area density conversion
+  0.682     0.w08     1.750     0.042     0   0   0   0   0   0   ! Right Motor and Prop DONE(?)		Delete (move to nose)
+
+# Left Wing
+  2.250     0.750    -2.667     0.146     0   0   0   0   0   0   ! Left wing					Do Sref area density conversion
+  0.682     0.208    -1.750     0.042     0   0   0   0   0   0   ! Left Motor and Prop DONE(?)			Delete (move to nose)
+
+#---------------------------------------------Tail-------------------------------------------------
++ 0.000     4.717     0.000     0.349     0   0   0   0   0   0   ! Tail Boom Start Offset			Change offset to MX-9 offset
+
+# Tail Boom:
+  0.8697  1.551     0.000     0.000     0   0   0   0   0   0   ! 1.25 OD Tail Boom				Scale by tail boom length
+
+
++ 0.000     7.615     0.000     0.000     0   0   0   0   0   0   ! Tail LE Offset				Change offset to MX-9
+
+* 1.000     1.000    -1.000     1.000     1   1   1   1   1   1   ! Left Hor. Stab. Multiplier			Keep
+
+# Horizontal Tail:
+  3.500E-1  2.163E-1  9.375E-1    0   0   0   0   0   0   ! Stabilizer Half					Change offset to MX-9
+
+* 1.000     1.000     1.000     1.000      1   1   1   1   1   1  ! Right Hor. Stab. Multiplier			Keep
+
+# Horizontal Tail:
+  3.500E-1  2.163E-1     9.375E-1  0.000     0   0   0   0   0   0   ! Stabilizer Half				Scale MX-9
+  0.061     2.163E-1     0.0     0.000     0   0   0   0   0   0   ! KST 125 Servo				Keep
+
+# Vertical Tail:
+  3.500E-1  2.163E-1     0.000     9.375E-1  0   0   0   0   0   0   ! Stabilizer				Scale to MX-9
+  0.051     2.163E-1     0.000     9.375E-1  0   0   0   0   0   0   ! KST 135 Servo				Keep
+# =================================================================================================
+
+
