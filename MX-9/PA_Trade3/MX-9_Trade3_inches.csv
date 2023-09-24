@@ -1,4 +1,4 @@
-aileronStartX,aileronStartChord,aileronStartHinge,aileronEndHinge,totalAileronAreaStraight,totalAileronAreaConstant,aileronSpanPerWingspan,aileronChordPerWingChord
+aileronStartY,aileronStartChord,aileronStartHinge,aileronEndHinge,totalAileronAreaStraight,totalAileronAreaConstant,aileronSpanPerWingspan,aileronChordPerWingChord
 32.835,16.9284,0.5757,0.84,188.8727,95.3824,0.35,0.16
 32.238,17.0806,0.5706,0.84,197.5399,98.631,0.36,0.16
 31.641,17.2328,0.5655,0.84,206.3888,101.9086,0.37,0.16

@@ -131,7 +131,7 @@ CLAF
 # ---- Aileron Start ----
 SECTION
 # Xle    Yle    Zle    chord    angle
-0.6066 0.8340 -0.033 0.488 0.0
+0.5944 0.6066 -0.033 0.488 0.0
 
 AFILE
 /Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat

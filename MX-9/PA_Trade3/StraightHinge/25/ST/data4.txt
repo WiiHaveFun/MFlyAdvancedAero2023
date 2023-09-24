@@ -13,23 +13,23 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   8.74780     pb/2V =  -0.00566     p'b/2V =  -0.00000
+  Alpha =   7.17699     pb/2V =  -0.00465     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00346
-  Mach  =     0.000     rb/2V =   0.03677     r'b/2V =   0.03720
+  Mach  =     0.000     rb/2V =   0.03691     r'b/2V =   0.03720
 
-  CXtot =   0.06750     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =   0.00481     Cmtot =  -0.00000
-  CZtot =  -1.06400     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =   0.05478     Cltot =   0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00310     Cmtot =   0.00000
+  CZtot =  -1.06337     Cntot =  -0.00000     Cn'tot =  -0.00000
 
   CLtot =   1.06189
-  CDtot =   0.09511
-  CDvis =   0.02090     CDind = 0.0742109
-  CLff  =   1.07767     CDff  = 0.0687618    | Trefftz
-  CYff  =   0.00254         e =    0.8754    | Plane  
+  CDtot =   0.07850
+  CDvis =   0.01850     CDind = 0.0600052
+  CLff  =   1.07377     CDff  = 0.0630292    | Trefftz
+  CYff  =   0.00277         e =    0.9481    | Plane  
 
-   Aileron         =   4.93682
-   Elevator        =  17.77412
-   Rudder          =   2.20155
+   Aileron         =   4.10677
+   Elevator        =   9.26462
+   Rudder          =   2.14324
 
  ---------------------------------------------------------------
 
@@ -37,32 +37,32 @@
 
                              alpha                beta
                   ----------------    ----------------
- z' force CL |    CLa =   3.984448    CLb =  -0.015945
- y  force CY |    CYa =  -0.004653    CYb =  -0.166960
- x' mom.  Cl'|    Cla =   0.031668    Clb =   0.020643
- y  mom.  Cm |    Cma =  -1.655646    Cmb =   0.014459
- z' mom.  Cn'|    Cna =  -0.004680    Cnb =   0.110763
+ z' force CL |    CLa =   4.071453    CLb =  -0.007990
+ y  force CY |    CYa =  -0.001122    CYb =  -0.170787
+ x' mom.  Cl'|    Cla =   0.030970    Clb =  -0.003504
+ y  mom.  Cm |    Cma =  -1.076357    Cmb =   0.008823
+ z' mom.  Cn'|    Cna =  -0.005086    Cnb =   0.115582
 
                      roll rate  p'      pitch rate  q'        yaw rate  r'
                   ----------------    ----------------    ----------------
- z' force CL |    CLp =  -0.081018    CLq =   7.437835    CLr =  -0.026133
- y  force CY |    CYp =   0.086367    CYq =  -0.010261    CYr =   0.226000
- x' mom.  Cl'|    Clp =  -0.348660    Clq =   0.064685    Clr =   0.250628
- y  mom.  Cm |    Cmp =   0.025565    Cmq =  -9.788165    Cmr =   0.011790
- z' mom.  Cn'|    Cnp =  -0.086204    Cnq =  -0.003952    Cnr =  -0.141742
+ z' force CL |    CLp =  -0.082006    CLq =   6.356681    CLr =  -0.027894
+ y  force CY |    CYp =   0.114128    CYq =  -0.002095    CYr =   0.225521
+ x' mom.  Cl'|    Clp =  -0.362868    Clq =   0.053001    Clr =   0.251341
+ y  mom.  Cm |    Cmp =   0.013043    Cmq =  -9.192321    Cmr =   0.003691
+ z' mom.  Cn'|    Cnp =  -0.081866    Cnq =  -0.004857    Cnr =  -0.140721
 
                   Aileron      d01     Elevator     d02     Rudder       d03 
                   ----------------    ----------------    ----------------
- z' force CL |   CLd01 =  -0.000488   CLd02 =  -0.010927   CLd03 =  -0.000008
- y  force CY |   CYd01 =   0.000048   CYd02 =   0.000025   CYd03 =  -0.003175
- x' mom.  Cl'|   Cld01 =  -0.002908   Cld02 =  -0.000083   Cld03 =  -0.000257
- y  mom.  Cm |   Cmd01 =   0.000148   Cmd02 =   0.025461   Cmd03 =   0.000034
- z' mom.  Cn'|   Cnd01 =  -0.000240   Cnd02 =  -0.000023   Cnd03 =   0.001579
- Trefftz drag| CDffd01 =   0.000171 CDffd02 =  -0.000344 CDffd03 =  -0.000013
- span eff.   |    ed01 =  -0.002648    ed02 =  -0.013532    ed03 =   0.000147
+ z' force CL |   CLd01 =  -0.000597   CLd02 =  -0.010908   CLd03 =  -0.000006
+ y  force CY |   CYd01 =   0.000160   CYd02 =   0.000016   CYd03 =  -0.003278
+ x' mom.  Cl'|   Cld01 =  -0.003471   Cld02 =  -0.000083   Cld03 =  -0.000272
+ y  mom.  Cm |   Cmd01 =   0.000089   Cmd02 =   0.025585   Cmd03 =   0.000032
+ z' mom.  Cn'|   Cnd01 =  -0.000279   Cnd02 =  -0.000014   Cnd03 =   0.001627
+ Trefftz drag| CDffd01 =   0.000166 CDffd02 =  -0.000835 CDffd03 =  -0.000014
+ span eff.   |    ed01 =  -0.003107    ed02 =  -0.006874    ed03 =   0.000188
 
 
 
- Neutral point  Xnp =   0.981814
+ Neutral point  Xnp =   0.890392
 
- Clb Cnr / Clr Cnb  =  -0.105399    (  > 1 if spirally stable )
+ Clb Cnr / Clr Cnb  =   0.016974    (  > 1 if spirally stable )
