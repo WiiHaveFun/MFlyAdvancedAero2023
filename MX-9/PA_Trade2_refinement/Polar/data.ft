@@ -17,17 +17,17 @@
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.30326     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -0.22056     Cntot =  -0.00000     Cn'tot =   0.00000
+  CXtot =  -0.30331     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =   0.00399
+  CZtot =  -0.21882     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.24615
-  CDtot =   0.28288
-  CDvis =   0.27751     CDind = 0.0053742
-  CLff  =   0.24490     CDff  = 0.0060830    | Trefftz
-  CYff  =   0.00000         e =    0.5110    | Plane  
+  CLtot =   0.24443
+  CDtot =   0.28309
+  CDvis =   0.27765     CDind = 0.0054337
+  CLff  =   0.24318     CDff  = 0.0061289    | Trefftz
+  CYff  =   0.00000         e =    0.5001    | Plane  
 
-   Elevator        =  -0.15645
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -46,54 +46,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  -3.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.22670     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.31307     Cntot =   0.00000     Cn'tot =   0.00000
-
-  CLtot =   0.32756
-  CDtot =   0.20522
-  CDvis =   0.19765     CDind = 0.0075627
-  CLff  =   0.32664     CDff  = 0.0082106    | Trefftz
-  CYff  =   0.00000         e =    0.6735    | Plane  
-
-   Elevator        =   0.40172
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  -2.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -3.94737     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.16271     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.40119     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =  -0.23303     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.00894
+  CZtot =  -0.30873     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.40837
-  CDtot =   0.14375
-  CDvis =   0.13332     CDind = 0.0104247
-  CLff  =   0.40784     CDff  = 0.0110632    | Trefftz
-  CYff  =   0.00000         e =    0.7792    | Plane  
+  CLtot =   0.32404
+  CDtot =   0.21123
+  CDvis =   0.20399     CDind = 0.0072400
+  CLff  =   0.32310     CDff  = 0.0079309    | Trefftz
+  CYff  =   0.00000         e =    0.6822    | Plane  
 
-   Elevator        =   0.99393
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -112,54 +79,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  -1.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.11128     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.48573     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   0.48853
-  CDtot =   0.09830
-  CDvis =   0.08436     CDind = 0.0139433
-  CLff  =   0.48851     CDff  = 0.0146233    | Trefftz
-  CYff  =   0.00000         e =    0.8458    | Plane  
-
-   Elevator        =   1.61806
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  -0.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -2.89474     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.07231     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.56754     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =  -0.17316     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.02265
+  CZtot =  -0.39526     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.56800
-  CDtot =   0.06866
-  CDvis =   0.05056     CDind = 0.0180998
-  CLff  =   0.56865     CDff  = 0.0188736    | Trefftz
-  CYff  =   0.00000         e =    0.8879    | Plane  
+  CLtot =   0.40350
+  CDtot =   0.15297
+  CDvis =   0.14327     CDind = 0.0097068
+  CLff  =   0.40291     CDff  = 0.0104667    | Trefftz
+  CYff  =   0.00000         e =    0.8038    | Plane  
 
-   Elevator        =   2.27200
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -178,21 +112,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   0.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -1.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =  -0.04563     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =   0.00000     Cmtot =  -0.00000
-  CZtot =  -0.64742     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.12368     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.03709
+  CZtot =  -0.47902     Cntot =   0.00000     Cn'tot =   0.00000
 
-  CLtot =   0.64673
-  CDtot =   0.05455
-  CDvis =   0.03167     CDind = 0.0228740
-  CLff  =   0.64824     CDff  = 0.0237972    | Trefftz
-  CYff  =   0.00000         e =    0.9152    | Plane  
+  CLtot =   0.48275
+  CDtot =   0.10822
+  CDvis =   0.09539     CDind = 0.0128299
+  CLff  =   0.48259     CDff  = 0.0137328    | Trefftz
+  CYff  =   0.00000         e =    0.8789    | Plane  
 
-   Elevator        =   2.95366
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -211,87 +145,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   1.94737     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.02894     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.72614     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   0.72474
-  CDtot =   0.05360
-  CDvis =   0.02535     CDind = 0.0282449
-  CLff  =   0.72733     CDff  = 0.0293794    | Trefftz
-  CYff  =   0.00000         e =    0.9332    | Plane  
-
-   Elevator        =   3.65686
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =   3.10526     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =  -0.01340     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -0.80407     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   0.80217
-  CDtot =   0.05694
-  CDvis =   0.02275     CDind = 0.0341950
-  CLff  =   0.80611     CDff  = 0.0356141    | Trefftz
-  CYff  =   0.00000         e =    0.9456    | Plane  
-
-   Elevator        =   4.36278
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =   4.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  -0.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.00385     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =  -0.00000
-  CZtot =  -0.88117     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.08456     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.05217
+  CZtot =  -0.56059     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.87901
-  CDtot =   0.06167
-  CDvis =   0.02096     CDind = 0.0407063
-  CLff  =   0.88460     CDff  = 0.0424948    | Trefftz
-  CYff  =   0.00000         e =    0.9544    | Plane  
+  CLtot =   0.56171
+  CDtot =   0.07682
+  CDvis =   0.06022     CDind = 0.0166026
+  CLff  =   0.56210     CDff  = 0.0177249    | Trefftz
+  CYff  =   0.00000         e =    0.9239    | Plane  
 
-   Elevator        =   5.06575
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -310,21 +178,186 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   5.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   0.26316     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.02315     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -0.95732     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =  -0.05568     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.06784
+  CZtot =  -0.64058     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   0.95523
-  CDtot =   0.06740
-  CDvis =   0.01964     CDind = 0.0477582
-  CLff  =   0.96280     CDff  = 0.0500124    | Trefftz
-  CYff  =   0.00000         e =    0.9606    | Plane  
+  CLtot =   0.64032
+  CDtot =   0.05863
+  CDvis =   0.03761     CDind = 0.0210161
+  CLff  =   0.64143     CDff  = 0.0224376    | Trefftz
+  CYff  =   0.00000         e =    0.9503    | Plane  
 
-   Elevator        =   5.76547
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   1.31579     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.03673     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.08403
+  CZtot =  -0.71957     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.71853
+  CDtot =   0.05325
+  CDvis =   0.02719     CDind = 0.0260595
+  CLff  =   0.72053     CDff  = 0.0278644    | Trefftz
+  CYff  =   0.00000         e =    0.9656    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02241     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =   0.00000     Cmtot =  -0.10039
+  CZtot =  -0.79788     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.79627
+  CDtot =   0.05536
+  CDvis =   0.02364     CDind = 0.0317195
+  CLff  =   0.79940     CDff  = 0.0339982    | Trefftz
+  CYff  =   0.00000         e =    0.9742    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   3.42105     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00738     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.11662
+  CZtot =  -0.87549     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.87349
+  CDtot =   0.05961
+  CDvis =   0.02163     CDind = 0.0379810
+  CLff  =   0.87799     CDff  = 0.0408305    | Trefftz
+  CYff  =   0.00000         e =    0.9785    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   4.47368     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.00934     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.13264
+  CZtot =  -0.95229     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.95012
+  CDtot =   0.06497
+  CDvis =   0.02014     CDind = 0.0448268
+  CLff  =   0.95629     CDff  = 0.0483523    | Trefftz
+  CYff  =   0.00000         e =    0.9802    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.02785     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.14841
+  CZtot =  -1.02820     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.02610
+  CDtot =   0.07129
+  CDvis =   0.01906     CDind = 0.0522373
+  CLff  =   1.03427     CDff  = 0.0565532    | Trefftz
+  CYff  =   0.00000         e =    0.9803    | Plane  
+
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -347,17 +380,17 @@
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.04461     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.03243     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.04827     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.16393
+  CZtot =  -1.10312     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   1.03074
-  CDtot =   0.07397
-  CDvis =   0.01864     CDind = 0.0553282
-  CLff  =   1.04066     CDff  = 0.0581567    | Trefftz
-  CYff  =   0.00000         e =    0.9651    | Plane  
+  CLtot =   1.10138
+  CDtot =   0.07844
+  CDvis =   0.01825     CDind = 0.0601915
+  CLff  =   1.11189     CDff  = 0.0654223    | Trefftz
+  CYff  =   0.00000         e =    0.9794    | Plane  
 
-   Elevator        =   6.46215
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -376,21 +409,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   7.73684     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   7.63158     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.06828     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.10638     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =   0.07059     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.17916
+  CZtot =  -1.17696     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   1.10551
-  CDtot =   0.08129
-  CDvis =   0.01790     CDind = 0.0633914
-  CLff  =   1.11817     CDff  = 0.0669166    | Trefftz
-  CYff  =   0.00000         e =    0.9684    | Plane  
+  CLtot =   1.17591
+  CDtot =   0.08634
+  CDvis =   0.01767     CDind = 0.0686662
+  CLff  =   1.18914     CDff  = 0.0749476    | Trefftz
+  CYff  =   0.00000         e =    0.9778    | Plane  
 
-   Elevator        =   7.15615
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -409,21 +442,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =   8.89474     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   8.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.09412     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.17907     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.09480     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.19410
+  CZtot =  -1.24963     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   1.17945
-  CDtot =   0.08932
-  CDvis =   0.01740     CDind = 0.0719209
-  CLff  =   1.19528     CDff  = 0.0762799    | Trefftz
-  CYff  =   0.00000         e =    0.9707    | Plane  
+  CLtot =   1.24962
+  CDtot =   0.09497
+  CDvis =   0.01733     CDind = 0.0776363
+  CLff  =   1.26599     CDff  = 0.0851161    | Trefftz
+  CYff  =   0.00000         e =    0.9759    | Plane  
 
-   Elevator        =   7.84792
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -442,120 +475,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  10.05263     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =   0.12202     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.25041     Cntot =  -0.00000     Cn'tot =   0.00000
-
-  CLtot =   1.25252
-  CDtot =   0.09812
-  CDvis =   0.01723     CDind = 0.0808875
-  CLff  =   1.27197     CDff  = 0.0862331    | Trefftz
-  CYff  =   0.00000         e =    0.9724    | Plane  
-
-   Elevator        =   8.53808
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  11.21053     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =   0.15177     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.32033     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   1.32464
-  CDtot =   0.10782
-  CDvis =   0.01756     CDind = 0.0902601
-  CLff  =   1.34821     CDff  = 0.0967619    | Trefftz
-  CYff  =   0.00000         e =    0.9736    | Plane  
-
-   Elevator        =   9.22743
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  12.36842     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =   0.18328     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.38876     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   1.39578
-  CDtot =   0.11844
-  CDvis =   0.01843     CDind = 0.1000060
-  CLff  =   1.42396     CDff  = 0.1078509    | Trefftz
-  CYff  =   0.00000         e =    0.9744    | Plane  
-
-   Elevator        =   9.91650
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  13.52632     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =   9.73684     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.21653     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.45560     Cntot =   0.00000     Cn'tot =   0.00000
+  CXtot =   0.12082     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.20871
+  CZtot =  -1.32106     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   1.46587
-  CDtot =   0.12993
-  CDvis =   0.01984     CDind = 0.1100909
-  CLff  =   1.49919     CDff  = 0.1194842    | Trefftz
-  CYff  =   0.00000         e =    0.9749    | Plane  
+  CLtot =   1.32246
+  CDtot =   0.10434
+  CDvis =   0.01727     CDind = 0.0870753
+  CLff  =   1.34242     CDff  = 0.0959143    | Trefftz
+  CYff  =   0.00000         e =    0.9738    | Plane  
 
-   Elevator        =  10.60571
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -574,21 +508,21 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  14.68421     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  10.78947     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.25136     Cltot =  -0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.52083     Cntot =  -0.00000     Cn'tot =   0.00000
+  CXtot =   0.14847     Cltot =   0.00000     Cl'tot =   0.00000
+  CYtot =  -0.00000     Cmtot =  -0.22300
+  CZtot =  -1.39119     Cntot =  -0.00000     Cn'tot =  -0.00000
 
-  CLtot =   1.53487
-  CDtot =   0.14237
-  CDvis =   0.02189     CDind = 0.1204785
-  CLff  =   1.57387     CDff  = 0.1316446    | Trefftz
-  CYff  =   0.00000         e =    0.9752    | Plane  
+  CLtot =   1.39439
+  CDtot =   0.11458
+  CDvis =   0.01763     CDind = 0.0969546
+  CLff  =   1.41839     CDff  = 0.1073275    | Trefftz
+  CYff  =   0.00000         e =    0.9715    | Plane  
 
-   Elevator        =  11.29576
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------
@@ -607,54 +541,120 @@
 
  Run case:  -unnamed-                              
 
-  Alpha =  15.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
-  Beta  =   0.00000     qc/2V =  -0.00000
-  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
-
-  CXtot =   0.28736     Cltot =   0.00000     Cl'tot =   0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.58445     Cntot =  -0.00000     Cn'tot =  -0.00000
-
-  CLtot =   1.60271
-  CDtot =   0.15609
-  CDvis =   0.02496     CDind = 0.1311309
-  CLff  =   1.64797     CDff  = 0.1443131    | Trefftz
-  CYff  =   0.00000         e =    0.9753    | Plane  
-
-   Elevator        =  11.98781
-   Rudder          =   0.00000
-
- ---------------------------------------------------------------
- ---------------------------------------------------------------
- Vortex Lattice Output -- Total Forces
-
- Configuration: MX-9B1                                                      
-     # Surfaces =   9
-     # Strips   = 120
-     # Vortices =1350
-
-  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
-  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
-
- Standard axis orientation,  X fwd, Z down         
-
- Run case:  -unnamed-                              
-
-  Alpha =  17.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Alpha =  11.84211     pb/2V =  -0.00000     p'b/2V =  -0.00000
   Beta  =   0.00000     qc/2V =   0.00000
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
-  CXtot =   0.32437     Cltot =   0.00000     Cl'tot =  -0.00000
-  CYtot =  -0.00000     Cmtot =   0.00000
-  CZtot =  -1.64646     Cntot =  -0.00000     Cn'tot =  -0.00000
+  CXtot =   0.17768     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.23695
+  CZtot =  -1.45996     Cntot =  -0.00000     Cn'tot =   0.00000
 
-  CLtot =   1.66936
-  CDtot =   0.17118
-  CDvis =   0.02917     CDind = 0.1420089
-  CLff  =   1.72144     CDff  = 0.1574706    | Trefftz
-  CYff  =   0.00000         e =    0.9753    | Plane  
+  CLtot =   1.46535
+  CDtot =   0.12571
+  CDvis =   0.01846     CDind = 0.1072445
+  CLff  =   1.49388     CDff  = 0.1193403    | Trefftz
+  CYff  =   0.00000         e =    0.9692    | Plane  
 
-   Elevator        =  12.68259
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  12.89474     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.20841     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.25053
+  CZtot =  -1.52731     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.53530
+  CDtot =   0.13768
+  CDvis =   0.01977     CDind = 0.1179133
+  CLff  =   1.56886     CDff  = 0.1319365    | Trefftz
+  CYff  =   0.00000         e =    0.9669    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  13.94737     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.24063     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.26374
+  CZtot =  -1.59317     Cntot =  -0.00000     Cn'tot =   0.00000
+
+  CLtot =   1.60419
+  CDtot =   0.15047
+  CDvis =   0.02154     CDind = 0.1289284
+  CLff  =   1.64332     CDff  = 0.1450991    | Trefftz
+  CYff  =   0.00000         e =    0.9646    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MX-9B1                                                      
+     # Surfaces =   9
+     # Strips   = 120
+     # Vortices =1350
+
+  Sref =  1.4976       Cref = 0.60480       Bref =  3.0328    
+  Xref = 0.74560       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  15.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.27402     Cltot =   0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =  -0.27657
+  CZtot =  -1.65754     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.67198
+  CDtot =   0.16432
+  CDvis =   0.02407     CDind = 0.1402557
+  CLff  =   1.71722     CDff  = 0.1588103    | Trefftz
+  CYff  =   0.00000         e =    0.9623    | Plane  
+
+   Elevator        =   0.00000
    Rudder          =   0.00000
 
  ---------------------------------------------------------------

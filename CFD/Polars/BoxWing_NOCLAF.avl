@@ -1,0 +1,150 @@
+#======================================================
+#------------------- Geometry File --------------------
+#======================================================
+# AVL Conventions
+# SI Used: m, kg, etc
+
+# Case title
+XMX-9A
+
+# Mach
+0
+
+# iYsym	iZsym	Zsym
+0 0 0
+
+# Sref	Cref	Bref
+1.5646  0.56    3.03
+
+# Xcg	Ycg	Zcg
+0.62 0 0
+
+# CDp (optional)
+0.03
+
+#======================================================
+#--------------------- Main Wing ----------------------
+#======================================================
+SURFACE
+Main Wing
+# Nchord Cspace Nspan Sspace
+10 1 25 1
+
+TRANSLATE
+# dX   dY  dZ
+0.56 0.0 0.051
+
+YDUPLICATE
+0
+
+#Wing Root---------------------------------------------------------------------(1)
+SECTION
+# Xle	Yle	Zle	Chord	Ainc
+  0     0       0       0.61   0
+
+NACA
+0000
+
+#Airfoil Start-----------------------------------------------------------------(2)
+SECTION
+# Xle	Yle	Zle	Chord	Ainc
+  0     0.0508   0      0.61   0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+#Airfoil Taper Start-----------------------------------------------------------(3)
+SECTION
+# Xle	Yle	Zle	Chord	Ainc
+  0     .51       0       0.61   0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+#Wing Tip----------------------------------------------------------------------(5)
+SECTION
+# Xle	Yle	Zle	Chord	Ainc
+  0 	1.51 	0 	.45 	0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/2023/Airfoils/Wing/ch10sm.dat
+
+#======================================================
+#------------------- Horizontal Tail ------------------
+#======================================================
+SURFACE
+Horizontal Tail
+# Nchord Cspace [ Nspan Sspace ]
+10 1 20 2
+
+YDUPLICATE
+0
+
+ANGLE
+0
+
+TRANSLATE
+# dX   dY  dZ
+2.21 0.0 0.0
+
+#Root--------------------------------------------------------------------(1)
+SECTION
+# Xle Yle Zle   Chord  Ainc 
+0     0   0.264 0.2286 -2		
+
+NACA
+0012
+
+CONTROL
+# surface  gain  xhinge hvec  SgnDup
+  Elevator -1.00 0.5    0 1 0 1			
+
+#Tip--------------------------------------------------------------------(2)
+SECTION
+# Xle   Yle     Zle    Chord  Ainc 
+0       0.6096  0.264  0.2286 -2	
+
+NACA
+0012
+
+CONTROL
+# surface  gain  xhinge hvec  SgnDup
+  Elevator -1.00 0.5    0 1 0 1			
+
+#======================================================
+#------------------- Vertical Tail --------------------
+#======================================================
+SURFACE
+Vertical Tail
+# Nchord Cspace [ Nspan Sspace ]
+10 1.00 10 -2.0
+
+ANGLE
+0.0
+
+TRANSLATE
+# dX   dY  dZ
+2.21 0.0 0.264 		
+
+#Root-------------------------------------------------------------------(1)
+SECTION
+# Xle Yle Zle Chord  Ainc 
+0     0   0   0.2286 0		
+
+NACA
+0012
+
+CONTROL
+# surface gain xhinge hvec  SgnDup
+ Rudder  1.00  0.5    0 0 1 -1						
+					
+#Tip-------------------------------------------------------------------(2)
+SECTION
+# Xle Yle Zle Chord  Ainc 
+0     0   0.635   0.2286 0		
+NACA
+0012			
+
+CONTROL
+# surface gain xhinge hvec  SgnDup
+ Rudder  1.00  0.5    0 0 1 -1				

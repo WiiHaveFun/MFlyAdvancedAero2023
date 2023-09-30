@@ -16,7 +16,12 @@ rho   = 1.14
 
 # ---- Fuselage ----
 # Structure
-  1.894     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin
+# 1.894     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
+  0.932     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
+  0.458     0.7788    -0.0332   0.000        0   0   0   0   0   0   ! Outer Skin (Left Transition)
+  0.458     0.7788    0.0332    0.000        0   0   0   0   0   0   ! Outer Skin (Right Transition)
+
+
 
 # Electronics (Done)
   0.054     0.100     0.0762   -0.100        0   0   0   0   0   0   ! GPS        
@@ -25,12 +30,12 @@ rho   = 1.14
   0.680     0.100     0.000    -0.0762       0   0   0   0   0   0   ! Main Battery
 
 # Landing Gear (check main gear position)
-  0.369     0.800     0.000    -0.101        0   0   0   0   0   0   ! Main Gear
-  0.417     0.216     0.000    -0.101        0   0   0   0   0   0   ! Nose Gear
+  0.443     1.003     0.000    -0.101        0   0   0   0   0   0   ! Main Gear
+  0.500     0.216     0.000    -0.101        0   0   0   0   0   0   ! Nose Gear
 
 # Payloads (done)
-# 6.804     0.482     0.000    -0.0762       0   0   0   0   0   0   ! Water
-# 0.454     1.175     0.000    -0.1524       0   0   0   0   0   0   ! PADA
+# 7.510     0.751     0.000    -0.0762       0   0   0   0   0   0   ! Water
+# 0.454     0.696     0.000    -0.1524       0   0   0   0   0   0   ! PADA
 
 # Propulsion (Done)
   0.595     0.0       0.0       0.0          0   0   0   0   0   0   ! Hacker A60 5S motor

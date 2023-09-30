@@ -1,9 +1,9 @@
 load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_Trade3/MX-9C_NOCLAF.avl
 oper
-a a 80.0000
+a a 12.5781
 x
 fs
-80.fs
+12.5781.fs
 
 
 
