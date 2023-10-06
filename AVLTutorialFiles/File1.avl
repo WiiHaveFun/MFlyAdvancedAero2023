@@ -1,0 +1,78 @@
+M-Fly AVL Tutorial 1
+# Header and rectangular wing
+# Michael Chen, October 5, 2023
+
+0.0                   ! Mach
+0      0      0       ! iYsym  iZsym  Zsym
+1.8581 0.6096 3.0480  ! Sref   Cref   Bref
+0.0    0.0    0.0     ! Xref   Yref   Zref
+0.0                   ! Cdp (optional)
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Fuselage
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+# COMPONENT
+# 1
+
+YDUPLICATE
+0.0
+
+# SCALE
+# Xscale    Yscale    Zscale
+# 1.0       1.0       1.0
+
+TRANSLATE
+# dx        dy        dz
+  0.25      0.0       0.0
+
+# ANGLE
+# dAinc
+# 2.0
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>
+
+# ---- Wing Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.6096  0.0
+
+# NACA
+# 0012
+
+AFILE
+<Absolute file path goes here>
+
+# CLAF
+# <CLaf scaling factor> 
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>
+
+# ---- Wing Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  1.5240  0.0000  0.6096  0.0
+
+# NACA
+# 0012
+
+AFILE
+<Absolute file path goes here>
+
+# CLAF
+# <CLaf scaling factor> 
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>

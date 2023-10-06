@@ -1,0 +1,183 @@
+M-Fly AVL Tutorial 1
+# Header, rectangular wing with ailerons, and conventional tail
+# Michael Chen, October 5, 2023
+
+0.0                   ! Mach
+0      0      0       ! iYsym  iZsym  Zsym
+1.8581 0.6096 3.0480  ! Sref   Cref   Bref
+0.0    0.0    0.0     ! Xref   Yref   Zref
+0.0                   ! Cdp (optional)
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+# COMPONENT
+# 1
+
+YDUPLICATE
+0.0
+
+# SCALE
+# Xscale    Yscale    Zscale
+# 1.0       1.0       1.0
+
+TRANSLATE
+# dx        dy        dz
+  0.25      0.0       0.0
+
+# ANGLE
+# dAinc
+# 2.0
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>
+
+# ---- Wing Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.6096  0.0
+
+NACA
+0012
+
+# AFILE
+# <Absolute file path goes here>
+
+# CLAF
+# <CLaf scaling factor> 
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>
+
+# ---- Aileron Start ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.7620  0.0000  0.6096  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  aileron  1.0      0.78     0 1 0    -1
+
+# ---- Aileron End ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  1.3716  0.0000  0.6096  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  aileron  1.0      0.78     0 1 0    -1
+
+# ---- Wing Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  1.5240  0.0000  0.6096  0.0
+
+NACA
+0012
+
+# AFILE
+# <Absolute file path goes here>
+
+# CLAF
+# <CLaf scaling factor> 
+
+# CDCL
+# CL1 CD1          CL2 CD2          CL3 CD4
+# <Some numbers for estimating profile drag>
+
+
+#
+# ==== Horizontal Tail ====
+#
+SURFACE
+H-Tail
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+YDUPLICATE
+0.0
+
+TRANSLATE
+# dx        dy        dz
+  2.0       0.0       0.0254
+
+# ---- Tail Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  elevator 1.0      0.5      0 1 0    1
+
+# ---- Tail Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.6096  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  elevator 1.0      0.5      0 1 0    1
+
+
+#
+# ==== Vertical Tail ====
+#
+SURFACE
+V-Tail
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+TRANSLATE
+# dx        dy        dz
+  2.0       0.0       0.0254
+
+# ---- Tail Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.6096  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  rudder   1.0      0.5      0 0 1    1
+
+# ---- Tail Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  rudder   1.0      0.5      0 0 1    1
