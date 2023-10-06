@@ -23,6 +23,7 @@ CL_CFD_BWB = polar_CFD_BWB.CL;
 %% Splines for cruise velocity and MTOW
 % thrustCurve = @(v) 52.6 - 1.71 .* v;
 thrustCurve = @(v) 48.9304 - 1.71 .* v;
+% thrustCurve = @(v) 53.38 - 1.87 .* v;
 [cruiseVelSplineBWB, MTOWSplineBWB] = findMTOWCruiseVel(alpha_CFD_BWB, CL_CFD_BWB, CD_CFD_BWB, thrustCurve, 1.14, 1.4976);
 
 %% MX-9 Sizing
@@ -32,6 +33,7 @@ alpha = 5;
 % weights = ppval(MTOWSplineBWB, alpha) * 9.81 - (4 * 0.453592 * 9.81); % Subtract some mass
 weights = 33 * 0.453592 * 9.81;
 thrust = 48.9304;
+% thrust = 53.38;
 
 rho = 1.14; % kg/m^3
 

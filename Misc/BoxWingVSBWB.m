@@ -25,7 +25,11 @@ CL_CFD_BWB = polar_CFD_BWB.CL;
 %% Plot polars
 figure(1);
 plot(CD_CFD_Box, CL_CFD_Box, "o", CD_CFD_BWB, CL_CFD_BWB, "x", LineWidth=3);
-legend("Box Wing w/ PADA", "BWB")
+legend("Box-and-Wing", "BWB")
+xlabel("C_{L}")
+ylabel("C_{D}")
+title("Box-and-Wing vs BWB using CFD")
+set(gca, "FontSize", 14);
 
 %% Plot polars BWB
 figure(1);
@@ -78,3 +82,33 @@ plot(D_Box, L_Box, "o", D_BWB, L_BWB, "x", LineWidth=3);
 legend("Box Wing w/ PADA", "BWB");
 xlabel("Drag (N)");
 ylabel("Lift (N)");
+
+%% Plot polars
+figure(2);
+
+CD_CFD_Box_spline = spline(alpha_CFD_Box, CD_CFD_Box);
+CL_CFD_Box_spline = spline(alpha_CFD_Box, CL_CFD_Box);
+
+CD_CFD_BWB_spline = spline(alpha_CFD_Box, CD_CFD_BWB);
+CL_CFD_BWB_spline = spline(alpha_CFD_Box, CL_CFD_BWB);
+
+a = -5:0.1:12;
+
+CD_Box = ppval(CD_CFD_Box_spline, a);
+CL_Box = ppval(CL_CFD_Box_spline, a);
+
+CD_BWB = ppval(CD_CFD_BWB_spline, a);
+CL_BWB = ppval(CL_CFD_BWB_spline, a);
+
+plot(CD_Box, CL_Box, "-r", CD_BWB, CL_BWB, "-b", LineWidth=3);
+legend("Box Wing w/ PADA", "BWB")
+
+%% LD
+LD_Box = CL_Box ./ CD_Box;
+LD_BWB = CL_BWB ./ CD_BWB;
+
+[max1, idx] = max(LD_Box);
+[max2, idx2] = max(LD_BWB);
+
+a(idx)
+a(idx2)

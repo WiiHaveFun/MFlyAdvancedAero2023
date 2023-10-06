@@ -10,6 +10,11 @@ CL_CFD = polar.CL;
 %% Plot polars
 figure(1);
 plot(CD_AVL, CL_AVL, "o", CD_CFD, CL_CFD, "x", LineWidth=3);
+legend("AVL", "CFD")
+xlabel("C_{L}")
+ylabel("C_{D}")
+title("AVL vs CFD for early PADA design")
+set(gca, "FontSize", 14);
 
 %%
 thrustCurve = @(v) 2.28 - 0.0335 * v - 2.53e-3 * v.^2;
