@@ -28,7 +28,10 @@ XMX-9A
 SURFACE
 Main Wing
 # Nchord Cspace Nspan Sspace
-10 1 25 1
+10 1 4 1
+
+COMPONENT
+1
 
 TRANSLATE
 # dX   dY  dZ
@@ -39,13 +42,42 @@ YDUPLICATE
 
 #Wing Root---------------------------------------------------------------------(1)
 SECTION
-# Xle	Yle	Zle	Chord	Ainc
+# Xle Yle Zle Chord Ainc
   0     0       0       0.61   0
 
 NACA
 0000
 CLAF
 1.1078
+
+#Wing Root---------------------------------------------------------------------(1)
+SECTION
+# Xle Yle Zle Chord Ainc
+  0     0.0508       0       0.61   0
+
+NACA
+0000
+CLAF
+1.1078
+
+
+#======================================================
+#--------------------- Main Wing ----------------------
+#======================================================
+SURFACE
+Main Wing
+# Nchord Cspace Nspan Sspace
+10 1 25 1
+
+COMPONENT
+1
+
+TRANSLATE
+# dX   dY  dZ
+0.56 0.0 0.051
+
+YDUPLICATE
+0
 
 #Airfoil Start-----------------------------------------------------------------(2)
 SECTION
