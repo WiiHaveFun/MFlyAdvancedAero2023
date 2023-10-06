@@ -1,4 +1,4 @@
-QM-3D
+QM-3E
 # Rectangular fuselage, swept and tapered transition and wing region. 8" root chord.
 # Michael Chen, July 29, 2023
 
@@ -143,7 +143,7 @@ CONTROL
 Aileron   1.0    0.78    0 1 0   -1
 CONTROL
 # surface gain   xhinge hvec     SgnDup
-Elevator  -1.0   0.78    0 1 0   1
+Elevator  1.0    0.78    0 1 0   1
 
 # ---- Elevon Start ----
 SECTION
@@ -161,7 +161,7 @@ CONTROL
 Aileron   1.0    0.78    0 1 0   -1
 CONTROL
 # surface gain   xhinge hvec     SgnDup
-Elevator  -1.0   0.78    0 1 0   1
+Elevator  1.0    0.78    0 1 0   1
 
 # ---- Wing Tip ----
 SECTION
