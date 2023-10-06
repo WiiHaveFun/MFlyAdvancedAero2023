@@ -197,7 +197,7 @@ NACA
 
 CONTROL
 # surface gain   xhinge hvec     SgnDup
-Elevator  -1.0   0.5    0 1 0    1
+Elevator  1.0   0.5    0 1 0    1
 
 # ---- Tail Tip ----
 SECTION
@@ -209,7 +209,7 @@ NACA
 
 CONTROL
 # surface gain   xhinge hvec     SgnDup
-Elevator  -1.0   0.5    0 1 0    1
+Elevator  1.0   0.5    0 1 0    1
 
 
 #
