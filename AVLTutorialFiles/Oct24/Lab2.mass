@@ -1,0 +1,16 @@
+# Lab 2
+# Mass file for Lab 2
+# Michael Chen, October 24, 2023
+
+Lunit = 1 m
+Munit = 1 kg
+Tunit = 1 s
+g     = 9.81
+rho   = 1.225
+
+#
+# ==== Mass and Intertia Breakdown ====
+#
+
+# Mass      Xcg       Ycg       Zcg        [ Ixx Iyy Izz Ixy Ixz Iyz ]
+  13.6078   0.5842    0.0000    -0.0762      0.73 0.32 0.80 0.0 0.0 0.0

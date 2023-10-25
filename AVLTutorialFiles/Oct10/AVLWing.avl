@@ -1,0 +1,135 @@
+Wing1
+# This is the header, Rectangular wing
+# Michael Chen, Ocotober 10, 2023
+
+0.0                   ! Mach
+0      0      0       ! 3 zeroes
+1.8581 0.6096 3.0480  ! Sref   Cref   Bref
+0.0    0.0    0.0     ! Xref   Yref   Zref
+
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+YDUPLICATE
+0.0
+
+TRANSLATE
+# dx        dy        dz
+  0.25      0.0       0.0
+
+# ---- Wing Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.6096  0.0
+
+NACA
+2412
+
+# ---- Wing Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  1.5240  0.0000  0.6096  0.0
+
+NACA
+2412
+
+
+#
+# ==== Horizontal Tail ====
+#
+
+SURFACE
+H-Tail
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+YDUPLICATE
+0.0
+
+TRANSLATE
+# dx        dy        dz
+  2.0       0.0       0.0254
+
+# ---- Tail Root ----
+
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  elevator 1.0      0.5      0 1 0    1
+
+# ---- Tail Tip ----
+
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.6096  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  elevator 1.0      0.5      0 1 0    1
+
+
+#
+# ==== Horizontal Tail ====
+#
+
+SURFACE
+V-Tail
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan     Sspace
+  10        1.0       20        1.0
+
+TRANSLATE
+# dx        dy        dz
+  2.0       0.0       0.0254
+
+# ---- Tail Tip ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.6096  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  rudder   1.0      0.5      0 0 1    1
+
+# ---- Tail Root ----
+SECTION
+# Xle     Yle     Zle     Chord   Ainc
+  0.0000  0.0000  0.0000  0.2286  0.0
+
+NACA
+0012
+
+CONTROL
+# surface  gain     Xhinge   XYZhvec  SgnDup
+  rudder   1.0      0.5      0 0 1    1
+
+
+
+
+
+
+
+

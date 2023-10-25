@@ -94,7 +94,7 @@ V-Tail ! name
 
 # Horseshoe Vortex Distribution
 # Nchord    Cspace    Nspan     Sspace
-  10        1.0       20        1.0
+        1.0       20        1.0
 
 TRANSLATE
 # dx        dy        dz

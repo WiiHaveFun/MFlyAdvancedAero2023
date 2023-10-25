@@ -181,3 +181,8 @@ NACA
 CONTROL
 # surface  gain     Xhinge   XYZhvec  SgnDup
   rudder   1.0      0.5      0 0 1    1
+
+
+
+
+  

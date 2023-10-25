@@ -1,0 +1,51 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: QM-3D                                                       
+     # Surfaces =   6
+     # Strips   =  60
+     # Vortices = 600
+
+  Sref = 0.12650       Cref = 0.18520       Bref = 0.68580    
+  Xref = 0.10160       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.92279     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.00665     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =  -0.00000     Cmtot =   0.00975
+  CZtot =  -0.21348     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.21354
+  CDtot =   0.00424
+  CDvis =   0.00000     CDind = 0.0042432
+  CLff  =   0.21376     CDff  = 0.0039352    | Trefftz
+  CYff  =   0.00000         e =    0.9941    | Plane  
+
+
+ ---------------------------------------------------------------
+
+ Stability-axis derivatives...
+
+                             alpha                beta
+                  ----------------    ----------------
+ z' force CL |    CLa =   3.375455    CLb =  -0.000000
+ y  force CY |    CYa =  -0.000000    CYb =  -0.000020
+ x' mom.  Cl'|    Cla =  -0.000000    Clb =  -0.058852
+ y  mom.  Cm |    Cma =   0.113841    Cmb =   0.000000
+ z' mom.  Cn'|    Cna =  -0.000000    Cnb =   0.002949
+
+                     roll rate  p'      pitch rate  q'        yaw rate  r'
+                  ----------------    ----------------    ----------------
+ z' force CL |    CLp =  -0.000000    CLq =   3.243218    CLr =   0.000000
+ y  force CY |    CYp =   0.109815    CYq =   0.000000    CYr =  -0.005528
+ x' mom.  Cl'|    Clp =  -0.304984    Clq =   0.000000    Clr =   0.060544
+ y  mom.  Cm |    Cmp =  -0.000000    Cmq =  -0.698621    Cmr =   0.000000
+ z' mom.  Cn'|    Cnp =  -0.026764    Cnq =  -0.000000    Cnr =  -0.000837
+
+ Neutral point  Xnp =   0.095354

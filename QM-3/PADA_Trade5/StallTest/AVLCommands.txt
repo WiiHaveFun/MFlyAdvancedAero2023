@@ -1,0 +1,13 @@
+load /Users/michaelchen/Documents/M-Fly/2023/QM-3/PADA_Trade5/QM-3E.avl
+oper
+d2 pm 0
+a a 16.7969
+x
+fs
+16.7969.fs
+st
+16.7969.st
+
+
+
+Quit
