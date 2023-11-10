@@ -1,0 +1,76 @@
+# MX-9D
+# Temporary mass file for dynamic stability
+# Michael Chen, September 18, 2023
+
+Lunit = 1 m
+Munit = 1 kg
+Tunit = 1 s
+g     = 9.81
+rho   = 1.14
+
+#
+# ==== Mass and Intertia Breakdown ====
+#
+
+# Mass      Xcg       Ycg       Zcg        [ Ixx Iyy Izz Ixy Ixz Iyz ]
+
+# ---- Fuselage ----
+# Structure
+# 1.894     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
+  0.932     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
+  0.458     0.7788    -0.0332   0.000        0   0   0   0   0   0   ! Outer Skin (Left Transition)
+  0.458     0.7788    0.0332    0.000        0   0   0   0   0   0   ! Outer Skin (Right Transition)
+
+
+
+# Electronics (Done)
+  0.054     0.100     0.0762   -0.100        0   0   0   0   0   0   ! GPS        
+  0.151     0.100     0.0762   -0.100        0   0   0   0   0   0   ! Arduino MEGA
+  0.181     0.100    -0.0762   -0.100        0   0   0   0   0   0   ! Systems Battery
+  0.680     0.100     0.000    -0.0762       0   0   0   0   0   0   ! Main Battery
+
+# Landing Gear (check main gear position)
+  0.443     1.003     0.000    -0.101        0   0   0   0   0   0   ! Main Gear
+  0.500     0.216     0.000    -0.101        0   0   0   0   0   0   ! Nose Gear
+
+# Payloads (done)
+  6.804     0.7702    0.000    -0.0762       0   0   0   0   0   0   ! Water
+# 0.454     1.2062    0.000    -0.1524       0   0   0   0   0   0   ! PADA
+
+# Propulsion (Done)
+  0.595     0.0       0.0       0.0          0   0   0   0   0   0   ! Hacker A60 5S motor
+  0.085     0.0       0.0       0.0          0   0   0   0   0   0   ! 24x13 Falcon Propeller
+
+# ---- Wings ----
++ 0.000     0.6096    0.1294    0.000        0   0   0   0   0   0   ! LE Offset
+* 1.000     1.000    -1.000     1.000        1   1   1   1   1   1   ! Left Multiplier
+
+# Left Wing (Done)
+  0.792     0.2371    0.6164    0.000        0   0   0   0   0   0   ! Left Wing
+
+* 1.000     1.000     1.000     1.000        1   1   1   1   1   1   ! Right 
+
+# Right Wing (Done)
+  0.792     0.2371    0.6164    0.000        0   0   0   0   0   0   ! Right Wing
+
+# ---- Tail ----
++ 0.000     1.3716    0.000     0.0254       0   0   0   0   0   0   ! Tail Boom Start Offset
+
+# Tail Boom
+  0.5264    0.5430    0.000     0.000        0   0   0   0   0   0   ! Tail Boom
+
++ 0.000     2.2203    0.000     0.0254       0   0   0   0   0   0   ! Tail LE Offset
+* 1.000     1.000    -1.000     1.000        1   1   1   1   1   1   ! Left 
+
+# Left Horizontal Tail
+  0.1483    0.1186    0.2966    0.000        0   0   0   0   0   0   ! Left H-Stab
+
+* 1.000     1.000     1.000     1.000        1   1   1   1   1   1   ! Right 
+
+# Right Horizontal Tail
+  0.1483    0.1186    0.2966    0.000        0   0   0   0   0   0   ! Right H-Stab
+  0.0277    0.1186    0.000     0.000        0   0   0   0   0   0   ! KST 125 Servo
+
+# Vertical Tail
+  0.1322    0.1186    0.000     0.2644       0   0   0   0   0   0   ! V-Stab
+  0.0277    0.1186    0.000     0.2644       0   0   0   0   0   0   ! KST 125 Servo
