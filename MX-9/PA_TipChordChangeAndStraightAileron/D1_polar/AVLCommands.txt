@@ -1,0 +1,84 @@
+load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_TipChordChangeAndStraightAileron/MX-9D1.avl
+oper
+a a -5.00000000
+x
+w
+data.ft
+a a -3.94736842
+x
+w
+
+a a -2.89473684
+x
+w
+
+a a -1.84210526
+x
+w
+
+a a -0.78947368
+x
+w
+
+a a 0.26315789
+x
+w
+
+a a 1.31578947
+x
+w
+
+a a 2.36842105
+x
+w
+
+a a 3.42105263
+x
+w
+
+a a 4.47368421
+x
+w
+
+a a 5.52631579
+x
+w
+
+a a 6.57894737
+x
+w
+
+a a 7.63157895
+x
+w
+
+a a 8.68421053
+x
+w
+
+a a 9.73684211
+x
+w
+
+a a 10.78947368
+x
+w
+
+a a 11.84210526
+x
+w
+
+a a 12.89473684
+x
+w
+
+a a 13.94736842
+x
+w
+
+a a 15.00000000
+x
+w
+
+
+Quit

@@ -1,0 +1,12 @@
+load /Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_TipChordChangeAndStraightAileron/MX-9D1_NOCLAF.avl
+oper
+a a 13.2031
+x
+fs
+13.2031.fs
+st
+13.2031.st
+
+
+
+Quit
