@@ -12,22 +12,22 @@
 
 polar_CFD_Box = readtable("/Users/michaelchen/Documents/M-Fly/2023/CFD/Polars/CFD Polars for MX-9 and QM-3 - Box Wing w_ PADA.csv");
 alpha_CFD_Box = polar_CFD_Box.alpha;
-CD_CFD_Box = polar_CFD_Box.CD * 2;
+CD_CFD_Box = polar_CFD_Box.CD;
 CL_CFD_Box = polar_CFD_Box.CL;
 
 %% BWB MX-9 CFD Polar
 
-polar_CFD_BWB = readtable("/Users/michaelchen/Documents/M-Fly/2023/CFD/Polars/CFD Polars for MX-9 and QM-3 - MX-9.csv");
+polar_CFD_BWB = readtable("/Users/michaelchen/Documents/M-Fly/2023/CFD/Polars/CFD Polars for MX-9 and QM-3 - MX-9D.csv");
 alpha_CFD_BWB = polar_CFD_BWB.alpha;
-CD_CFD_BWB = polar_CFD_BWB.CD * 2;
+CD_CFD_BWB = polar_CFD_BWB.CD;
 CL_CFD_BWB = polar_CFD_BWB.CL;
 
 %% Plot polars
 figure(1);
 plot(CD_CFD_Box, CL_CFD_Box, "o", CD_CFD_BWB, CL_CFD_BWB, "x", LineWidth=3);
 legend("Box-and-Wing", "BWB")
-xlabel("C_{L}")
-ylabel("C_{D}")
+xlabel("C_{D}")
+ylabel("C_{L}")
 title("Box-and-Wing vs BWB using CFD")
 set(gca, "FontSize", 14);
 
