@@ -4,7 +4,7 @@ b = 3.0328; % m
 S = 1.5652; % m^2
 AR = b^2 / S;
 
-%% QM-3D/E CFD Polar
+%% MX-9D CFD Polar
 
 % -5 to 15 deg
 polar_CFD = readtable("/Users/michaelchen/Documents/M-Fly/2023/CFD/Polars/CFD Polars for MX-9 and QM-3 - MX-9D.csv");
@@ -12,7 +12,7 @@ alpha_CFD = polar_CFD.alpha;
 CD_CFD = polar_CFD.CD;
 CL_CFD = polar_CFD.CL;
 
-%% QM-3Etest AVL Polar with e
+%% MX-9D AVL Polar with e
 
 % [alpha_AVL, CL_AVL, CD_AVL, e_AVL] = AVLDragPolarAndE("/Users/michaelchen/Documents/M-Fly", ...
 %     "/Users/michaelchen/Documents/M-Fly/2023/MX-9/PA_TipChordChangeAndStraightAileron/MX-9D1.avl", ...
