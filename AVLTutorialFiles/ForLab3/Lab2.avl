@@ -1,0 +1,114 @@
+Lab1
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+1.3354 0.5842 2.286   ! Sref   Cref   Bref
+0.5842 0.0    -0.0762 ! Xref   Yref   Zref
+
+
+#
+#==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord   Cspace   Nspan  Sspace
+10  1.0  20  1.0      
+
+YDUPLICATE
+0.0
+
+TRANSLATE
+# dX   dY   dZ
+0.3048 0.0  0.0
+
+#---- Wing Root ----
+SECTION
+# Xle   Yle   Zle   chord   angle
+0.0     0.0   0.0   0.5842  0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/AVLFiles/Tutorial/Labs/Lab3/S1223.dat
+
+#---- Wing Tip ----
+SECTION
+# Xle   Yle   Zle   chord   angle
+0.0     1.143 0.0   0.5842  0.0
+
+AFILE
+/Users/michaelchen/Documents/M-Fly/AVLFiles/Tutorial/Labs/Lab3/S1223.dat
+
+
+#
+#==== H-Stab ====
+#
+SURFACE
+H-Stab
+
+# Horseshoe Vortex Distribution
+# Nchord   Cspace   Nspan  Sspace
+10  1.0  20  1.0      
+
+YDUPLICATE
+0.0
+
+TRANSLATE
+# dX   dY   dZ
+1.524 0.0  0.0254
+
+#---- Tail Root ----
+SECTION
+# Xle   Yle   Zle   chord   angle
+0.0     0.0   0.0   0.2032  0.0
+
+NACA
+0012
+
+CONTROL
+# surface gain   xhinge hvec     SgnDup
+Elevator  -1.0   0.5    0 1 0    1
+
+#---- Tail Tip ----
+SECTION
+# Xle   Yle    Zle   chord   angle
+0.0     0.3048 0.0   0.2032  0.0
+
+NACA
+0012
+
+CONTROL
+# surface gain   xhinge hvec     SgnDup
+Elevator  -1.0   0.5    0 1 0    1
+
+#
+#==== V-Stab ====
+#
+SURFACE
+V-Stab
+
+# Horseshoe Vortex Distribution
+# Nchord   Cspace   Nspan  Sspace
+10  1.0  20  1.0      
+
+TRANSLATE
+# dX   dY   dZ
+1.9812 0.0  0.0254
+
+#---- Tail Root ----
+SECTION
+# Xle   Yle   Zle   chord   angle
+0.0     0.0   0.0   0.3048  0.0
+
+NACA
+0012
+
+#---- Tail Tip ----
+SECTION
+# Xle   Yle   Zle    chord   angle
+0.0     0.0   0.3048 0.3048  0.0
+
+NACA
+0012
+
+# Michael Chen - Nov 16, 2023
