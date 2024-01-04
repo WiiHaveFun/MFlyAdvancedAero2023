@@ -36,6 +36,7 @@ CL_CFD_BWB_spline = spline(alpha_CFD_BWB, CL_CFD_BWB);
 CD_CFD_BWB_spline = spline(alpha_CFD_BWB, CD_CFD_BWB);
 
 alphaStall = 13.2031; % From AVL No CLAF
+% alphaStall = 17; % From AVL CLAF
 CLMax = ppval(CL_CFD_BWB_spline, alphaStall);
 CDStall = ppval(CD_CFD_BWB_spline, alphaStall);
 
