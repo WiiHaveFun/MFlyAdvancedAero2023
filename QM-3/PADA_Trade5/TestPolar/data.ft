@@ -150,7 +150,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =  -0.00977     Cltot =   0.00258     Cl'tot =   0.00253
-  CYtot =   0.00000     Cmtot =   0.00462
+  CYtot =  -0.00000     Cmtot =   0.00462
   CZtot =   0.00668     Cntot =   0.00377     Cn'tot =   0.00381
 
   CLtot =  -0.00654
@@ -216,7 +216,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =  -0.00824     Cltot =  -0.05313     Cl'tot =  -0.05304
-  CYtot =  -0.00000     Cmtot =  -0.00702
+  CYtot =   0.00000     Cmtot =  -0.00702
   CZtot =  -0.13750     Cntot =   0.00318     Cn'tot =   0.00440
 
   CLtot =   0.13728
@@ -315,7 +315,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =   0.00689     Cltot =  -0.13623     Cl'tot =  -0.13602
-  CYtot =  -0.00000     Cmtot =  -0.02441
+  CYtot =   0.00000     Cmtot =  -0.02441
   CZtot =  -0.35258     Cntot =  -0.00266     Cn'tot =   0.00797
 
   CLtot =   0.35204
@@ -348,7 +348,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =   0.01538     Cltot =  -0.16368     Cl'tot =  -0.16349
-  CYtot =   0.00000     Cmtot =  -0.03015
+  CYtot =  -0.00000     Cmtot =  -0.03015
   CZtot =  -0.42361     Cntot =  -0.00594     Cn'tot =   0.00985
 
   CLtot =   0.42312
@@ -414,7 +414,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =   0.03749     Cltot =  -0.21800     Cl'tot =  -0.21799
-  CYtot =  -0.00000     Cmtot =  -0.04155
+  CYtot =   0.00000     Cmtot =  -0.04155
   CZtot =  -0.56420     Cntot =  -0.01449     Cn'tot =   0.01459
 
   CLtot =   0.56418
@@ -480,7 +480,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =   0.06638     Cltot =  -0.27134     Cl'tot =  -0.27177
-  CYtot =   0.00000     Cmtot =  -0.05275
+  CYtot =  -0.00000     Cmtot =  -0.05275
   CZtot =  -0.70225     Cntot =  -0.02565     Cn'tot =   0.02061
 
   CLtot =   0.70336
@@ -645,7 +645,7 @@
   Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
 
   CXtot =   0.16753     Cltot =  -0.39875     Cl'tot =  -0.40192
-  CYtot =   0.00000     Cmtot =  -0.07966
+  CYtot =  -0.00000     Cmtot =  -0.07966
   CZtot =  -1.03200     Cntot =  -0.06473     Cn'tot =   0.04068
 
   CLtot =   1.04020

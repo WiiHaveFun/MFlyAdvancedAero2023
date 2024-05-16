@@ -17,11 +17,10 @@ rho   = 1.14
 # ---- Fuselage ----
 # Structure
 # 1.894     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
-  0.932     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
-  0.458     0.7788    -0.0332   0.000        0   0   0   0   0   0   ! Outer Skin (Left Transition)
-  0.458     0.7788    0.0332    0.000        0   0   0   0   0   0   ! Outer Skin (Right Transition)
-
-
+# 0.932     0.6858    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Center)
+# 0.458     0.7788    -0.0332   0.000        0   0   0   0   0   0   ! Outer Skin (Left Transition)
+# 0.458     0.7788    0.0332    0.000        0   0   0   0   0   0   ! Outer Skin (Right Transition)
+  1.848     0.6350    0.000     0.000        0   0   0   0   0   0   ! Outer Skin (Entire thing, sum of above, xcg estimated using fuselage halves no bulkheads 1/20)
 
 # Electronics (Done)
   0.153     0.0762    0.000     0.000        0   0   0   0   0   0   ! ESC
@@ -30,10 +29,10 @@ rho   = 1.14
   0.017     0.2858    0.000     0.000        0   0   0   0   0   0   ! RX
   0.018     0.8992    0.0254    0.000        0   0   0   0   0   0   ! Drop Mechanism
   0.018     0.8992   -0.0254    0.000        0   0   0   0   0   0   ! Drop Mechanism
-  0.085     1.1367    0.000     0.000        0   0   0   0   0   0   ! DAS
+  0.085     0.3048    0.000     0.000        0   0   0   0   0   0   ! DAS (xcg moved to front, estimated using info from Evan 1/20)
   0.057     1.1367    0.000    -0.0508       0   0   0   0   0   0   ! Camera
-  0.011     1.2700    0.0508    0.000        0   0   0   0   0   0   ! DAS Antennas
-  0.011     1.2700   -0.0508    0.000        0   0   0   0   0   0   ! DAS Antennas
+  0.011     0.4318    0.0508    0.000        0   0   0   0   0   0   ! DAS Antennas (xcg updated using marks on fuselage 1/20)
+  0.011     0.4318   -0.0508    0.000        0   0   0   0   0   0   ! DAS Antennas
 
 
 # Landing Gear (check main gear position)
@@ -54,12 +53,12 @@ rho   = 1.14
 * 1.000     1.000    -1.000     1.000        1   1   1   1   1   1   ! Left Multiplier
 
 # Left Wing (Done)
-  0.792     0.2371    0.6164    0.000        0   0   0   0   0   0   ! Left Wing
+  0.792     0.1778    0.6164    0.000        0   0   0   0   0   0   ! Left Wing (x position estimated using actual wing, without leading edge) (7.5 from leading edge - 0.5 fudge for no leading 1/20)
 
 * 1.000     1.000     1.000     1.000        1   1   1   1   1   1   ! Right 
 
 # Right Wing (Done)
-  0.792     0.2371    0.6164    0.000        0   0   0   0   0   0   ! Right Wing
+  0.792     0.1778    0.6164    0.000        0   0   0   0   0   0   ! Right Wing
 
 # ---- Tail ----
 + 0.000     1.3716    0.000     0.0254       0   0   0   0   0   0   ! Tail Boom Start Offset
