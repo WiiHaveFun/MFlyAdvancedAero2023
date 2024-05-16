@@ -57,6 +57,32 @@ dTO = 121.92; % m
 
 sizingPlot(weights, thrust, 1.14, CLMax, CDStall, thrustCurve, sref, vCruise, CD0, AR, e, dTO, true);
 title("MX-9 Sizing Plot")
+
+%% Formatting for Latex
+
+set(groot,'defaultLineLineWidth',0.5)
+set(groot,'defaultTextInterpreter','latex')
+set(groot,'defaultAxesTitleFontSize',1)
+set(groot,'defaultAxesLabelFontSize',1)
+set(groot,'defaultAxesTickLabelInterpreter','latex')
+set(groot,'defaultTextFontSize',14)
+set(groot,'defaultAxesFontSize',14)
+set(groot,'defaultLegendInterpreter','latex')
+
+text(1.3,0.4,{'Feasible'; 'Region'},'HorizontalAlignment','center','VerticalAlignment','middle')
+text(4,0.075,'Infeasible Region','HorizontalAlignment','center','VerticalAlignment','middle')
+% text(1.9533-0.4,0.336971,{'MTOW'; 'Design'; 'Point'},'HorizontalAlignment','right','VerticalAlignment','middle')
+% hold on
+% quiver(1.9533-0.35, 0.336971, 0.25, 0, 'off', 'filled', 'Color', 'k', 'ShowArrowHead', 'off', 'LineWidth', 1);
+
+set(gcf, 'units', 'inches', 'position', [5 6 7 3.5]);
+
+title('')
+xlabel('W/S [$lb/in^{2}$]');
+ylabel('T/W')
+legend('Stall', 'Takeoff', '$40^{\circ}$ Banked Turn', 'Cruise', '$5^{\circ}$ Climb', 'MTOW Design Point', "Location", "northeastoutside",'FontSize', 14);
+legend('boxoff');
+
 % t=tiledlayout(2,3)
 
 % for i = 1:length(alpha)
