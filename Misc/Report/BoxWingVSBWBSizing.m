@@ -30,7 +30,7 @@ thrustCurve = @(v) (50.9 - 1.0 * v - 0.0344 * v.^2) * (rho / 1.254).^(1/3);
 
 alpha = 5;
 
-weights = 40 * 0.453592 * 9.81;
+weights = 40.0954372 * 0.453592 * 9.81;
 thrust = 50.9 * (rho / 1.254).^(1/3);
 
 CL_CFD_BWB_spline = spline(alpha_CFD_BWB, CL_CFD_BWB);
@@ -61,6 +61,33 @@ dTO = 121.92; % m
 figure(1);
 sizingPlot(weights, thrust, 1.14, CLMax, CDStall, thrustCurve, sref, vCruise, CD0, AR, e, dTO, true);
 title("MX-9 Sizing Plot")
+
+%%
+%% Formatting for Latex
+
+set(groot,'defaultLineLineWidth',0.5)
+set(groot,'defaultTextInterpreter','latex')
+set(groot,'defaultAxesTitleFontSize',1)
+set(groot,'defaultAxesLabelFontSize',1)
+set(groot,'defaultAxesTickLabelInterpreter','latex')
+set(groot,'defaultTextFontSize',14)
+set(groot,'defaultAxesFontSize',14)
+set(groot,'defaultLegendInterpreter','latex')
+
+text(1.3,0.4,{'Feasible'; 'Region'},'HorizontalAlignment','center','VerticalAlignment','middle')
+text(4,0.075,'Infeasible Region','HorizontalAlignment','center','VerticalAlignment','middle')
+% text(1.9533-0.4,0.336971,{'MTOW'; 'Design'; 'Point'},'HorizontalAlignment','right','VerticalAlignment','middle')
+% hold on
+% quiver(1.9533-0.35, 0.336971, 0.25, 0, 'off', 'filled', 'Color', 'k', 'ShowArrowHead', 'off', 'LineWidth', 1);
+
+set(gcf, 'units', 'inches', 'position', [5 6 5 3.5]);
+
+title('')
+xlabel('W/S [$lb/in^{2}$]');
+ylabel('T/W');
+% legend('Stall', 'Takeoff', '$40^{\circ}$ Banked Turn', 'Cruise', '$5^{\circ}$ Climb', 'MTOW Design Point', 'Location', 'best', 'FontSize', 8);
+legend('off')
+
 % t=tiledlayout(2,3)
 
 % for i = 1:length(alpha)
@@ -101,7 +128,7 @@ thrustCurve = @(v) (50.9 - 1.0 * v - 0.0344 * v.^2) * (rho / 1.254).^(1/3);
 
 alpha = 5;
 
-weights = 32 * 0.453592 * 9.81;
+weights = 32.8846468 * 0.453592 * 9.81;
 thrust = 50.9 * (rho / 1.254).^(1/3);
 
 CL_CFD_Box_spline = spline(alpha_CFD_Box, CL_CFD_Box);
@@ -130,6 +157,32 @@ dTO = 121.92; % m
 figure(2);
 sizingPlot(weights, thrust, 1.14, CLMax, CDStall, thrustCurve, sref, vCruise, CD0, AR, e, dTO, true);
 title("Box-and-wing Sizing Plot")
+
+%% Formatting for Latex
+
+set(groot,'defaultLineLineWidth',0.5)
+set(groot,'defaultTextInterpreter','latex')
+set(groot,'defaultAxesTitleFontSize',1)
+set(groot,'defaultAxesLabelFontSize',1)
+set(groot,'defaultAxesTickLabelInterpreter','latex')
+set(groot,'defaultTextFontSize',14)
+set(groot,'defaultAxesFontSize',14)
+set(groot,'defaultLegendInterpreter','latex')
+
+text(1.3,0.4,{'Feasible'; 'Region'},'HorizontalAlignment','center','VerticalAlignment','middle')
+text(4,0.075,'Infeasible Region','HorizontalAlignment','center','VerticalAlignment','middle')
+% text(1.9533-0.4,0.336971,{'MTOW'; 'Design'; 'Point'},'HorizontalAlignment','right','VerticalAlignment','middle')
+% hold on
+% quiver(1.9533-0.35, 0.336971, 0.25, 0, 'off', 'filled', 'Color', 'k', 'ShowArrowHead', 'off', 'LineWidth', 1);
+
+set(gcf, 'units', 'inches', 'position', [5 6 5 3.5]);
+
+title('')
+xlabel('W/S [$lb/in^{2}$]');
+ylabel('T/W');
+legend('Stall', 'Takeoff', '$40^{\circ}$ Banked Turn', 'Cruise', '$5^{\circ}$ Climb', 'MTOW Design Point', 'FontSize', 11);
+legend('boxoff');
+
 % t=tiledlayout(2,3)
 
 % for i = 1:length(alpha)
