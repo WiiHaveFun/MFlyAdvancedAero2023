@@ -1,0 +1,63 @@
+Twist test
+# 0.5 taper ratio, AR 10
+# Michael Chen, July 29, 2023
+
+0.0                   ! Mach
+0      0      0.0     ! iYsym  iZsym  Zsym
+10     1      10      ! Sref Cref Bref
+0.0837 -0.2748 0.0    ! Xref   Yref   Zref
+
+#
+# ==== Wing ====
+#
+SURFACE
+Wing
+
+# Horseshoe Vortex Distribution
+# Nchord    Cspace    Nspan    Sspace
+10 1.0 40 1.0
+
+YDUPLICATE
+0.0
+
+# ---- Center ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      0.0    0.0    1.333    0.2658
+
+NACA
+0012
+
+# ---- 0.25 ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      1.25    0.0    1.166    0.7298
+
+NACA
+0012
+
+# ---- 0.5 ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      2.50    0.0    1    0.9394
+
+NACA
+0012
+
+# ---- 0.75 ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      3.75    0.0    0.8333    0.5197
+
+NACA
+0012
+
+# ---- 1 ----
+SECTION
+# Xle    Yle    Zle    chord    angle
+0.0      5.00   0.0    0.666    -4.0081
+
+NACA
+0012
+
+
